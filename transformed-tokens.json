@@ -1,0 +1,12 @@
+{
+  "blue-400": {
+    "value": "#7186ff",
+    "type": "color"
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "core",
+      "type": "other"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "tokens-studio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tokens": "token-transformer tokens.json transformed-tokens.json && style-dictionary build -c ./style-dictionary.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattclough1/tokens-studio-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattclough1/tokens-studio-test/issues"
+  },
+  "homepage": "https://github.com/mattclough1/tokens-studio-test#readme",
+  "dependencies": {
+    "token-transformer": "^0.0.32"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}
