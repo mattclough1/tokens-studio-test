@@ -1,0 +1,65 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 28 Mar 2023 21:17:45 GMT
+ */
+
+:root {
+  --ys-button-primary-background: #7f9cf5;
+  --ys-button-primary-text: #ffffff;
+  --ys-button-border-radius: 8;
+  --ys-button-border-width: 8;
+  --ys-card-border-radius: 8;
+  --ys-card-background: #ffffff;
+  --ys-card-padding: 16;
+  --ys-box-shadow-default-0-x: 5;
+  --ys-box-shadow-default-0-y: 5;
+  --ys-box-shadow-default-0-spread: 3;
+  --ys-box-shadow-default-0-color: #1a202c26;
+  --ys-box-shadow-default-0-blur: 5;
+  --ys-box-shadow-default-0-type: dropShadow;
+  --ys-box-shadow-default-1-x: 4;
+  --ys-box-shadow-default-1-y: 4;
+  --ys-box-shadow-default-1-spread: 6;
+  --ys-box-shadow-default-1-color: #00000033;
+  --ys-box-shadow-default-1-blur: 5;
+  --ys-box-shadow-default-1-type: innerShadow;
+  --ys-typography-h1-bold-font-family: Inter;
+  --ys-typography-h1-bold-font-weight: Bold;
+  --ys-typography-h1-bold-line-height: 110%;
+  --ys-typography-h1-bold-font-size: 48.829;
+  --ys-typography-h1-bold-paragraph-spacing: 32;
+  --ys-typography-h1-bold-letter-spacing: -5%;
+  --ys-typography-h1-regular-font-family: Inter;
+  --ys-typography-h1-regular-font-weight: Regular;
+  --ys-typography-h1-regular-line-height: 110%;
+  --ys-typography-h1-regular-font-size: 48.829;
+  --ys-typography-h1-regular-paragraph-spacing: 32;
+  --ys-typography-h1-regular-letter-spacing: -5%;
+  --ys-typography-h2-bold-font-family: Inter;
+  --ys-typography-h2-bold-font-weight: Bold;
+  --ys-typography-h2-bold-line-height: 110%;
+  --ys-typography-h2-bold-font-size: 39.063;
+  --ys-typography-h2-bold-paragraph-spacing: 26;
+  --ys-typography-h2-bold-letter-spacing: -5%;
+  --ys-typography-h2-regular-font-family: Inter;
+  --ys-typography-h2-regular-font-weight: Regular;
+  --ys-typography-h2-regular-line-height: 110%;
+  --ys-typography-h2-regular-font-size: 39.063;
+  --ys-typography-h2-regular-paragraph-spacing: 26;
+  --ys-typography-h2-regular-letter-spacing: -5%;
+  --ys-typography-body-font-family: Roboto;
+  --ys-typography-body-font-weight: Regular;
+  --ys-typography-body-line-height: 110%;
+  --ys-typography-body-font-size: 16;
+  --ys-typography-body-paragraph-spacing: 26;
+  --ys-fg-default: #000000;
+  --ys-fg-muted: #4a5568;
+  --ys-fg-subtle: #a0aec0;
+  --ys-bg-default: #ffffff;
+  --ys-bg-muted: #f7fafc;
+  --ys-bg-subtle: #edf2f7;
+  --ys-accent-default: #7f9cf5;
+  --ys-accent-on-accent: #ffffff;
+  --ys-accent-bg: #c3dafe;
+  --ys-shadows-default: #1a202c;
+}

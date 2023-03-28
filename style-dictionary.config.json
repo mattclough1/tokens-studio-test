@@ -1,5 +1,5 @@
 {
-  "source": ["tokens.json"],
+  "source": ["style-dictionary/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
