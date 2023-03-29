@@ -145,7 +145,7 @@ public extension UIColor {
     }
     
     static var yellow400: UIColor {
-        return UIColor(hex: 0xF6E05E)
+        return UIColor(hex: 0xF6E480)
     }
     
     static var yellow500: UIColor {
@@ -153,11 +153,11 @@ public extension UIColor {
     }
     
     static var yellow600: UIColor {
-        return UIColor(hex: 0xD69E2E)
+        return UIColor(hex: 0xE9B54C)
     }
     
     static var yellow700: UIColor {
-        return UIColor(hex: 0xB7791F)
+        return UIColor(hex: 0xBA822E)
     }
     
     static var yellow800: UIColor {
