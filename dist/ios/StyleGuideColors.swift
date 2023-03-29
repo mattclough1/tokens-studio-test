@@ -16,372 +16,184 @@ import UIKit
 @available(*, deprecated, message: "Please refer to Theme.live.color for colors.")
 public extension UIColor {
     
-    static var black: UIColor {
-        return UIColor(hex: 0x000000)
-    }
-    
     static var white: UIColor {
         return UIColor(hex: 0xFFFFFF)
     }
     
-    static var gray100: UIColor {
-        return UIColor(hex: 0xF7FAFC)
+    static var grey10: UIColor {
+        return UIColor(hex: 0xFAFAFA)
     }
     
-    static var gray200: UIColor {
-        return UIColor(hex: 0xEDF2F7)
+    static var grey20: UIColor {
+        return UIColor(hex: 0xF5F5F5)
     }
     
-    static var gray300: UIColor {
-        return UIColor(hex: 0xE2E8F0)
+    static var grey30: UIColor {
+        return UIColor(hex: 0xE2E2E2)
     }
     
-    static var gray400: UIColor {
-        return UIColor(hex: 0xCBD5E0)
+    static var grey40: UIColor {
+        return UIColor(hex: 0xBDBDBD)
     }
     
-    static var gray500: UIColor {
-        return UIColor(hex: 0xA0AEC0)
+    static var grey50: UIColor {
+        return UIColor(hex: 0xA5A5A5)
     }
     
-    static var gray600: UIColor {
-        return UIColor(hex: 0x718096)
+    static var grey60: UIColor {
+        return UIColor(hex: 0x8B8B8B)
     }
     
-    static var gray700: UIColor {
-        return UIColor(hex: 0x4A5568)
+    static var grey70: UIColor {
+        return UIColor(hex: 0x777777)
     }
     
-    static var gray800: UIColor {
-        return UIColor(hex: 0x2D3748)
+    static var grey80: UIColor {
+        return UIColor(hex: 0x555555)
     }
     
-    static var gray900: UIColor {
-        return UIColor(hex: 0x1A202C)
+    static var grey90: UIColor {
+        return UIColor(hex: 0x464646)
     }
     
-    static var red100: UIColor {
-        return UIColor(hex: 0xFFF5F5)
+    static var grey100: UIColor {
+        return UIColor(hex: 0x333333)
     }
     
-    static var red200: UIColor {
-        return UIColor(hex: 0xFED7D7)
+    static var grey110: UIColor {
+        return UIColor(hex: 0x222222)
     }
     
-    static var red300: UIColor {
-        return UIColor(hex: 0xFEB2B2)
+    static var blue10: UIColor {
+        return UIColor(hex: 0xF5FAFF)
     }
     
-    static var red400: UIColor {
-        return UIColor(hex: 0xFC8181)
+    static var blue20: UIColor {
+        return UIColor(hex: 0xE1EFFE)
     }
     
-    static var red500: UIColor {
-        return UIColor(hex: 0xF56565)
+    static var blue30: UIColor {
+        return UIColor(hex: 0xBEDCFE)
     }
     
-    static var red600: UIColor {
-        return UIColor(hex: 0xE53E3E)
+    static var blue40: UIColor {
+        return UIColor(hex: 0x8BBEFD)
     }
     
-    static var red700: UIColor {
-        return UIColor(hex: 0xC53030)
+    static var blue50: UIColor {
+        return UIColor(hex: 0x4EA0FD)
     }
     
-    static var red800: UIColor {
-        return UIColor(hex: 0x9B2C2C)
+    static var blue60: UIColor {
+        return UIColor(hex: 0x087BFF)
     }
     
-    static var red900: UIColor {
-        return UIColor(hex: 0x742A2A)
+    static var blue70: UIColor {
+        return UIColor(hex: 0x0063D6)
     }
     
-    static var orange100: UIColor {
-        return UIColor(hex: 0xFFFAF0)
+    static var blue80: UIColor {
+        return UIColor(hex: 0x0056BB)
     }
     
-    static var orange200: UIColor {
-        return UIColor(hex: 0xFEEBC8)
-    }
-    
-    static var orange300: UIColor {
-        return UIColor(hex: 0xFBD38D)
-    }
-    
-    static var orange400: UIColor {
-        return UIColor(hex: 0xF6AD55)
-    }
-    
-    static var orange500: UIColor {
-        return UIColor(hex: 0xED8936)
-    }
-    
-    static var orange600: UIColor {
-        return UIColor(hex: 0xDD6B20)
-    }
-    
-    static var orange700: UIColor {
-        return UIColor(hex: 0xC05621)
-    }
-    
-    static var orange800: UIColor {
-        return UIColor(hex: 0x9C4221)
-    }
-    
-    static var orange900: UIColor {
-        return UIColor(hex: 0x7B341E)
-    }
-    
-    static var yellow100: UIColor {
-        return UIColor(hex: 0xFFFFF0)
-    }
-    
-    static var yellow200: UIColor {
-        return UIColor(hex: 0xFEFCBF)
-    }
-    
-    static var yellow300: UIColor {
-        return UIColor(hex: 0xFAF089)
-    }
-    
-    static var yellow400: UIColor {
-        return UIColor(hex: 0xF6E480)
-    }
-    
-    static var yellow500: UIColor {
-        return UIColor(hex: 0xECC94B)
-    }
-    
-    static var yellow600: UIColor {
-        return UIColor(hex: 0xE9B54C)
-    }
-    
-    static var yellow700: UIColor {
-        return UIColor(hex: 0xBA822E)
-    }
-    
-    static var yellow800: UIColor {
-        return UIColor(hex: 0x975A16)
-    }
-    
-    static var yellow900: UIColor {
-        return UIColor(hex: 0x744210)
-    }
-    
-    static var green100: UIColor {
-        return UIColor(hex: 0xF0FFF4)
-    }
-    
-    static var green200: UIColor {
-        return UIColor(hex: 0xC6F6D5)
-    }
-    
-    static var green300: UIColor {
-        return UIColor(hex: 0x9AE6B4)
-    }
-    
-    static var green400: UIColor {
-        return UIColor(hex: 0x68D391)
-    }
-    
-    static var green500: UIColor {
-        return UIColor(hex: 0x48BB78)
-    }
-    
-    static var green600: UIColor {
-        return UIColor(hex: 0x38A169)
-    }
-    
-    static var green700: UIColor {
-        return UIColor(hex: 0x2F855A)
-    }
-    
-    static var green800: UIColor {
-        return UIColor(hex: 0x276749)
-    }
-    
-    static var green900: UIColor {
-        return UIColor(hex: 0x22543D)
-    }
-    
-    static var teal100: UIColor {
-        return UIColor(hex: 0xE6FFFA)
-    }
-    
-    static var teal200: UIColor {
-        return UIColor(hex: 0xB2F5EA)
-    }
-    
-    static var teal300: UIColor {
-        return UIColor(hex: 0x81E6D9)
-    }
-    
-    static var teal400: UIColor {
-        return UIColor(hex: 0x4FD1C5)
-    }
-    
-    static var teal500: UIColor {
-        return UIColor(hex: 0x38B2AC)
-    }
-    
-    static var teal600: UIColor {
-        return UIColor(hex: 0x319795)
-    }
-    
-    static var teal700: UIColor {
-        return UIColor(hex: 0x2C7A7B)
-    }
-    
-    static var teal800: UIColor {
-        return UIColor(hex: 0x285E61)
-    }
-    
-    static var teal900: UIColor {
-        return UIColor(hex: 0x234E52)
+    static var blue90: UIColor {
+        return UIColor(hex: 0x004899)
     }
     
     static var blue100: UIColor {
-        return UIColor(hex: 0xEBF8FF)
+        return UIColor(hex: 0x083366)
     }
     
-    static var blue200: UIColor {
-        return UIColor(hex: 0xBEE3F8)
+    static var blue110: UIColor {
+        return UIColor(hex: 0x001833)
     }
     
-    static var blue300: UIColor {
-        return UIColor(hex: 0x90CDF4)
+    static var red10: UIColor {
+        return UIColor(hex: 0xFFF7F5)
     }
     
-    static var blue400: UIColor {
-        return UIColor(hex: 0x63B3ED)
+    static var red20: UIColor {
+        return UIColor(hex: 0xFFE6E0)
     }
     
-    static var blue500: UIColor {
-        return UIColor(hex: 0x4299E1)
+    static var red30: UIColor {
+        return UIColor(hex: 0xFFC2B2)
     }
     
-    static var blue600: UIColor {
-        return UIColor(hex: 0x3182CE)
+    static var red40: UIColor {
+        return UIColor(hex: 0xFF9D84)
     }
     
-    static var blue700: UIColor {
-        return UIColor(hex: 0x2B6CB0)
+    static var red50: UIColor {
+        return UIColor(hex: 0xFF5C33)
     }
     
-    static var blue800: UIColor {
-        return UIColor(hex: 0x2C5282)
+    static var red60: UIColor {
+        return UIColor(hex: 0xFF3300)
     }
     
-    static var blue900: UIColor {
-        return UIColor(hex: 0x2A4365)
+    static var red70: UIColor {
+        return UIColor(hex: 0xE52E00)
     }
     
-    static var indigo100: UIColor {
-        return UIColor(hex: 0xEBF4FF)
+    static var red80: UIColor {
+        return UIColor(hex: 0xC92800)
     }
     
-    static var indigo200: UIColor {
-        return UIColor(hex: 0xC3DAFE)
+    static var red90: UIColor {
+        return UIColor(hex: 0x8A1F05)
     }
     
-    static var indigo300: UIColor {
-        return UIColor(hex: 0xA3BFFA)
+    static var red100: UIColor {
+        return UIColor(hex: 0x6D1C08)
     }
     
-    static var indigo400: UIColor {
-        return UIColor(hex: 0x7F9CF5)
+    static var red110: UIColor {
+        return UIColor(hex: 0x330E05)
     }
     
-    static var indigo500: UIColor {
-        return UIColor(hex: 0x667EEA)
+    static var yellow10: UIColor {
+        return UIColor(hex: 0xFFFBF5)
     }
     
-    static var indigo600: UIColor {
-        return UIColor(hex: 0x5A67D8)
+    static var yellow20: UIColor {
+        return UIColor(hex: 0xFFF3E0)
     }
     
-    static var indigo700: UIColor {
-        return UIColor(hex: 0x4C51BF)
+    static var yellow30: UIColor {
+        return UIColor(hex: 0xFFE0B2)
     }
     
-    static var indigo800: UIColor {
-        return UIColor(hex: 0x434190)
+    static var yellow40: UIColor {
+        return UIColor(hex: 0xFFCE84)
     }
     
-    static var indigo900: UIColor {
-        return UIColor(hex: 0x3C366B)
+    static var yellow50: UIColor {
+        return UIColor(hex: 0xFFB23D)
     }
     
-    static var purple100: UIColor {
-        return UIColor(hex: 0xFAF5FF)
+    static var yellow60: UIColor {
+        return UIColor(hex: 0xFF9F0E)
     }
     
-    static var purple200: UIColor {
-        return UIColor(hex: 0xE9D8FD)
+    static var yellow70: UIColor {
+        return UIColor(hex: 0xF09000)
     }
     
-    static var purple300: UIColor {
-        return UIColor(hex: 0xD6BCFA)
+    static var yellow80: UIColor {
+        return UIColor(hex: 0xBD7200)
     }
     
-    static var purple400: UIColor {
-        return UIColor(hex: 0xB794F4)
+    static var yellow90: UIColor {
+        return UIColor(hex: 0x895506)
     }
     
-    static var purple500: UIColor {
-        return UIColor(hex: 0x9F7AEA)
+    static var yellow100: UIColor {
+        return UIColor(hex: 0x694207)
     }
     
-    static var purple600: UIColor {
-        return UIColor(hex: 0x805AD5)
-    }
-    
-    static var purple700: UIColor {
-        return UIColor(hex: 0x6B46C1)
-    }
-    
-    static var purple800: UIColor {
-        return UIColor(hex: 0x553C9A)
-    }
-    
-    static var purple900: UIColor {
-        return UIColor(hex: 0x44337A)
-    }
-    
-    static var pink100: UIColor {
-        return UIColor(hex: 0xFFF5F7)
-    }
-    
-    static var pink200: UIColor {
-        return UIColor(hex: 0xFED7E2)
-    }
-    
-    static var pink300: UIColor {
-        return UIColor(hex: 0xFBB6CE)
-    }
-    
-    static var pink400: UIColor {
-        return UIColor(hex: 0xF687B3)
-    }
-    
-    static var pink500: UIColor {
-        return UIColor(hex: 0xED64A6)
-    }
-    
-    static var pink600: UIColor {
-        return UIColor(hex: 0xD53F8C)
-    }
-    
-    static var pink700: UIColor {
-        return UIColor(hex: 0xB83280)
-    }
-    
-    static var pink800: UIColor {
-        return UIColor(hex: 0x97266D)
-    }
-    
-    static var pink900: UIColor {
-        return UIColor(hex: 0x702459)
+    static var yellow110: UIColor {
+        return UIColor(hex: 0x332105)
     }
     
 }
