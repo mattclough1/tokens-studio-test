@@ -23,6 +23,7 @@ const STYLE_DICTIONARY_BASE_PLATFORM_CONFIG = {
   buildPath: "dist/ios/",
 };
 
+// Template formatter for StyleGuideColors swift file
 StyleDictionary.registerFormat({
   name: "custom/format/ios-ys-style-guide-colors",
   formatter: _.template(
@@ -32,6 +33,7 @@ StyleDictionary.registerFormat({
   ),
 });
 
+// Transform CSS Hex codes
 StyleDictionary.registerTransform({
   type: "attribute",
   name: "custom/attribute/iosHexColor",
@@ -43,6 +45,7 @@ StyleDictionary.registerTransform({
   },
 });
 
+// Drop "colors" prefix from color tokens
 StyleDictionary.registerTransform({
   type: "attribute",
   name: "custom/name/removeColorNamespace",
@@ -52,24 +55,13 @@ StyleDictionary.registerTransform({
   },
 });
 
-// Format our Tokens Setudio token sets for Style Dictionary
-const sets = ["light", "dark"];
-const styleDictionaryJSON = sets.reduce(
-  (accumulator, set) => ({
-    ...accumulator,
-    [set]: transformTokens(rawTokens, ["core", "theme", set], ["core"], {
-      expandTypography: true,
-    }),
-  }),
-  []
-);
-
-styleDictionaryJSON.core = transformTokens(rawTokens, ["core"], [], {
+// token JSON formatted for Style Dictionary
+const coreStyleDictionaryJSON = transformTokens(rawTokens, ["core"], [], {
   expandTypography: true,
 });
 
 const coreStyleDictionary = StyleDictionary.extend({
-  tokens: styleDictionaryJSON.core,
+  tokens: coreStyleDictionaryJSON,
   platforms: {
     ios: {
       ...STYLE_DICTIONARY_BASE_PLATFORM_CONFIG,
@@ -77,36 +69,6 @@ const coreStyleDictionary = StyleDictionary.extend({
         {
           destination: "StyleGuideColors.swift",
           format: "custom/format/ios-ys-style-guide-colors",
-        },
-      ],
-    },
-  },
-});
-
-const lightStyleDictionary = StyleDictionary.extend({
-  tokens: styleDictionaryJSON.light,
-  platforms: {
-    ios: {
-      ...STYLE_DICTIONARY_BASE_PLATFORM_CONFIG,
-      files: [
-        {
-          destination: "YSLight.swift",
-          format: "ios-swift/class.swift",
-        },
-      ],
-    },
-  },
-});
-
-const darkStyleDictionary = StyleDictionary.extend({
-  tokens: styleDictionaryJSON.dark,
-  platforms: {
-    ios: {
-      ...STYLE_DICTIONARY_BASE_PLATFORM_CONFIG,
-      files: [
-        {
-          destination: "StyleGuideColors.swift",
-          format: "ios-swift/class.swift",
         },
       ],
     },
