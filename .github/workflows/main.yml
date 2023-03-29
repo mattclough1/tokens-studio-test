@@ -2,8 +2,6 @@ name: Build Tokens
 
 on:
   push:
-    paths:
-      - "tokens.js"
     branches:
       - main
 
