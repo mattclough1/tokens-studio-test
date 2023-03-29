@@ -77,11 +77,11 @@ public extension UIColor {
     }
     
     static var red500: UIColor {
-        return UIColor(hex: 0xF05B5B)
+        return UIColor(hex: 0xF56565)
     }
     
     static var red600: UIColor {
-        return UIColor(hex: 0xF64E4E)
+        return UIColor(hex: 0xE53E3E)
     }
     
     static var red700: UIColor {
@@ -109,7 +109,7 @@ public extension UIColor {
     }
     
     static var orange400: UIColor {
-        return UIColor(hex: 0xF2A443)
+        return UIColor(hex: 0xF6AD55)
     }
     
     static var orange500: UIColor {
@@ -149,7 +149,7 @@ public extension UIColor {
     }
     
     static var yellow500: UIColor {
-        return UIColor(hex: 0xE9C852)
+        return UIColor(hex: 0xECC94B)
     }
     
     static var yellow600: UIColor {
@@ -185,7 +185,7 @@ public extension UIColor {
     }
     
     static var green500: UIColor {
-        return UIColor(hex: 0x55D58B)
+        return UIColor(hex: 0x48BB78)
     }
     
     static var green600: UIColor {
