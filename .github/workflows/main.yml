@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - 'tokens.js'
+      - "tokens.json"
 
 jobs:
   build-and-commit:
