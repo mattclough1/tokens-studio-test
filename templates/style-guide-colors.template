@@ -1,0 +1,27 @@
+import CoreUtilities
+import SwiftUI
+import UIKit
+
+/*
+ When designing UI elements aim to use Styling.swift refrences rather than these colors.
+ Ideally Styling.swift would be the only consumer of these colors.
+ Existing usage makes it not possible to make these private within Styling.swift.
+ Colors added here should be concrete and static.
+ Dynamic or app area/element based colors should be added to Styling.swift
+ For example:
+ `UIColor.baseOrage` would belong here, but `.foregroundTextColor` should instead be in Styling.swift.
+ */
+
+// MARK: - Style Guide Colors
+@available(*, deprecated, message: "Please refer to Theme.live.color for colors.")
+public extension UIColor {
+    <% allTokens.forEach(function(token) {
+    if (token.type === 'color') {
+    %>
+    static var <%= token.name %>: UIColor {
+        return UIColor(hex: <%= token.attributes.iosHexColor %>)
+    }
+    <%
+    }
+    }); %>
+}

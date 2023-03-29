@@ -1,25 +1,25 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Mar 2023 21:17:45 GMT
+ * Generated on Wed, 29 Mar 2023 18:03:58 GMT
  */
 
 :root {
-  --ys-dimension-scale: 2;
-  --ys-dimension-xs: 4;
-  --ys-dimension-sm: 8;
-  --ys-dimension-md: 16;
-  --ys-dimension-lg: 32;
-  --ys-dimension-xl: 64;
-  --ys-spacing-xs: 4;
-  --ys-spacing-sm: 8;
-  --ys-spacing-md: 16;
-  --ys-spacing-lg: 32;
-  --ys-spacing-xl: 64;
-  --ys-spacing-multi-value: 8 64;
-  --ys-border-radius-sm: 4;
-  --ys-border-radius-lg: 8;
-  --ys-border-radius-xl: 16;
-  --ys-border-radius-multi-value: 4 8;
+  --ys-dimension-scale: 2px;
+  --ys-dimension-xs: 4px;
+  --ys-dimension-sm: 8px;
+  --ys-dimension-md: 16px;
+  --ys-dimension-lg: 32px;
+  --ys-dimension-xl: 64px;
+  --ys-spacing-xs: 4px;
+  --ys-spacing-sm: 8px;
+  --ys-spacing-md: 16px;
+  --ys-spacing-lg: 32px;
+  --ys-spacing-xl: 64px;
+  --ys-spacing-multi-value: 8 64px;
+  --ys-border-radius-sm: 4px;
+  --ys-border-radius-lg: 8px;
+  --ys-border-radius-xl: 16px;
+  --ys-border-radius-multi-value: 4 8px;
   --ys-colors-black: #000000;
   --ys-colors-white: #ffffff;
   --ys-colors-gray-100: #f7fafc;
@@ -128,13 +128,13 @@
   --ys-font-weights-heading-bold: Bold;
   --ys-font-weights-body-regular: Regular;
   --ys-font-weights-body-bold: Bold;
-  --ys-font-sizes-h1: 48.829;
-  --ys-font-sizes-h2: 39.063;
-  --ys-font-sizes-h3: 31.25;
-  --ys-font-sizes-h4: 25;
-  --ys-font-sizes-h5: 20;
-  --ys-font-sizes-h6: 16;
-  --ys-font-sizes-body: 16;
-  --ys-font-sizes-sm: 13.6;
-  --ys-font-sizes-xs: 10.4;
+  --ys-font-sizes-h1: 48.829px;
+  --ys-font-sizes-h2: 39.063px;
+  --ys-font-sizes-h3: 31.25px;
+  --ys-font-sizes-h4: 25px;
+  --ys-font-sizes-h5: 20px;
+  --ys-font-sizes-h6: 16px;
+  --ys-font-sizes-body: 16px;
+  --ys-font-sizes-sm: 13.6px;
+  --ys-font-sizes-xs: 10.4px;
 }

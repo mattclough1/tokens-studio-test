@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-tokens": "node transform-tokens.js"
+    "build-tokens": "node scripts/build-tokens.js"
   },
   "repository": {
     "type": "git",
