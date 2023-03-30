@@ -1,8 +1,8 @@
 {
-  "name": "tokens-studio-test",
+  "name": "@mattclough/tokens-studio-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/web/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-tokens": "node scripts/build-tokens.js"
@@ -17,9 +17,27 @@
     "url": "https://github.com/mattclough1/tokens-studio-test/issues"
   },
   "homepage": "https://github.com/mattclough1/tokens-studio-test#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "lodash": "^4.17.21",
+    "rimraf": "^4.4.1",
     "style-dictionary": "^3.7.2",
     "token-transformer": "^0.0.32"
+  },
+  "exports": {
+    "./global": "./dist/web/global.css",
+    "./js/global": "./dist/web/global.js",
+    "./hunt-light-mode": "./dist/web/hunt-light-mode.css",
+    "./js/hunt-light-mode": "./dist/web/hunt-light-mode.js",
+    "./hunt-dark-mode": "./dist/web/hunt-dark-mode.css",
+    "./js/hunt-dark-mode": "./dist/web/hunt-dark-mode.js",
+    "./offroad-light-mode": "./dist/web/offroad-light-mode.css",
+    "./js/offroad-light-mode": "./dist/web/offroad-light-mode.js",
+    "./offroad-dark-mode": "./dist/web/offroad-dark-mode.css",
+    "./js/offroad-dark-mode": "./dist/web/offroad-dark-mode.js",
+    "./backcountry-light-mode": "./dist/web/backcountry-light-mode.css",
+    "./js/backcountry-light-mode": "./dist/web/backcountry-light-mode.js",
+    "./backcountry-dark-mode": "./dist/web/backcountry-dark-mode.css",
+    "./js/backcountry-dark-mode": "./dist/web/backcountry-dark-mode.js"
   }
 }
