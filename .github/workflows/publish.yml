@@ -32,8 +32,6 @@ jobs:
           git push origin HEAD:main
 
       - name: Publish
-        run: |
-          npm login
-          npm publish
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
