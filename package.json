@@ -25,6 +25,9 @@
     "token-transformer": "^0.0.32"
   },
   "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
     "./global": "./dist/web/global.css",
     "./js/global": "./dist/web/global.js",
     "./hunt-light-mode": "./dist/web/hunt-light-mode.css",
