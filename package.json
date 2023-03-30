@@ -26,7 +26,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "module": "./dist/index.js"
     },
     "./global": "./dist/web/global.css",
     "./js/global": "./dist/web/global.js",
