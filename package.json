@@ -26,8 +26,7 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "module": "./dist/index.js"
+      "default": "./dist/open-props.cjs"
     },
     "./global": "./dist/web/global.css",
     "./js/global": "./dist/web/global.js",
