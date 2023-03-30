@@ -2,7 +2,7 @@
   "name": "@mattclough/tokens-studio-test",
   "version": "1.7.0",
   "description": "",
-  "main": "dist/web/index.js",
+  "main": "./dist/web/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-tokens": "node scripts/build-tokens.js"
