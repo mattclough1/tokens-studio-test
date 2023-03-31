@@ -59,7 +59,7 @@ StyleDictionary.registerTransform({
 });
 
 // token JSON formatted for Style Dictionary
-const coreStyleDictionaryJSON = transformTokens(rawTokens, ["global"], [], {
+const coreStyleDictionaryJSON = transformTokens(rawTokens, ["core"], [], {
   expandTypography: true,
 });
 
