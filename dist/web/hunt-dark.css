@@ -18,7 +18,7 @@
   }
 }
 
-[color-sceme="dark"][data-theme="hunt"] {
+[color-scheme="dark"][data-theme="hunt"] {
   color-scheme: dark;
   
   --ys-button-primary-surface-rest: #C92800;
