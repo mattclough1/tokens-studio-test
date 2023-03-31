@@ -8,6 +8,8 @@ const path = require("path");
 const rawTokens = require("../tokens.json");
 
 const BUILD_PATH = "dist/web/";
+// Define global set name constant
+const GLOBAL = "core";
 
 // Custom transform for box shadow values
 StyleDictionary.registerTransform({
@@ -42,6 +44,17 @@ StyleDictionary.registerTransform({
   transformer: (token) => `${token.value}px`,
 });
 
+StyleDictionary.registerFormat({
+  name: "css/variables/dark",
+  formatter: _.template(fs.readFileSync("templates/web-dark.template")),
+});
+
+StyleDictionary.registerFormat({
+  name: "css/variables/light",
+  formatter: _.template(fs.readFileSync("templates/web-light.template")),
+});
+
+// Write CSS exports to package.json on build
 StyleDictionary.registerAction({
   name: "createCSSExports",
   do: function (dictionary, config) {
@@ -76,6 +89,7 @@ StyleDictionary.registerAction({
   },
 });
 
+// Write JS exports to index.js on build
 StyleDictionary.registerAction({
   name: "createJSExports",
   do: function (dictionary, config) {
@@ -128,8 +142,6 @@ StyleDictionary.registerAction({
   },
 });
 
-// Define global set name constant
-const GLOBAL = "global";
 // Get set keys for all sets besides our global set
 const nonGlobalSetKeys = Object.keys(rawTokens).filter(
   (key) => key !== GLOBAL && !key.startsWith("$")
@@ -150,8 +162,21 @@ styleDictionaryJSON[GLOBAL] = transformTokens(rawTokens, [GLOBAL], [], {
   expandTypography: true,
 });
 
-const styleDictionaries = [GLOBAL, ...nonGlobalSetKeys].map((key) =>
-  StyleDictionary.extend({
+const styleDictionaries = [GLOBAL, ...nonGlobalSetKeys].map((key) => {
+  // let selectors = [];
+  const theme = key.toLowerCase().match(/(backcountry|hunt|offroad)/)?.[1];
+  let formatter = "css/variables";
+  if (/dark/.test(key)) {
+    // selectors.push('[data-color-scheme="dark"]');
+    formatter = `${formatter}/dark`;
+  }
+  if (/light/.test(key)) {
+    formatter = `${formatter}/light`;
+  }
+  // if (theme) {
+  //   selectors.push(`[data-theme="${theme}"]`);
+  // }
+  return StyleDictionary.extend({
     tokens: styleDictionaryJSON[key],
     platforms: {
       css: {
@@ -171,7 +196,8 @@ const styleDictionaries = [GLOBAL, ...nonGlobalSetKeys].map((key) =>
         files: [
           {
             destination: `${_.kebabCase(key)}.css`,
-            format: "css/variables",
+            format: formatter,
+            options: { theme },
           },
         ],
         actions: ["createCSSExports"],
@@ -193,8 +219,8 @@ const styleDictionaries = [GLOBAL, ...nonGlobalSetKeys].map((key) =>
         actions: ["createJSExports"],
       },
     },
-  })
-);
+  });
+});
 
 module.exports = {
   buildWebTokens: async function () {

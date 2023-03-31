@@ -1,0 +1,35 @@
+:root[data-theme="backcountry"] {
+  color-scheme: light;
+  
+  --ys-button-primary-surface-rest: #087BFF;
+  --ys-button-primary-surface-hover: #0056BB;
+  --ys-button-primary-surface-active: #0056BB;
+  --ys-button-primary-surface-focus: #087BFF;
+  --ys-button-primary-surface-disabled: #8BBEFD;
+  --ys-button-primary-text-rest: #FFFFFF;
+  --ys-button-primary-text-hover: #FFFFFF;
+  --ys-button-primary-text-active: #FFFFFF;
+  --ys-button-primary-text-focus: #FFFFFF;
+  --ys-button-primary-text-disabled: #BEDCFE;
+  --ys-button-primary-border-active: #087BFF;
+  --ys-button-primary-border-focus: #0056BB;
+  --ys-accent-primary: #087BFF;
+}
+
+[color-scheme="light"][data-theme="backcountry"] {
+  color-scheme: light;
+  
+  --ys-button-primary-surface-rest: #087BFF;
+  --ys-button-primary-surface-hover: #0056BB;
+  --ys-button-primary-surface-active: #0056BB;
+  --ys-button-primary-surface-focus: #087BFF;
+  --ys-button-primary-surface-disabled: #8BBEFD;
+  --ys-button-primary-text-rest: #FFFFFF;
+  --ys-button-primary-text-hover: #FFFFFF;
+  --ys-button-primary-text-active: #FFFFFF;
+  --ys-button-primary-text-focus: #FFFFFF;
+  --ys-button-primary-text-disabled: #BEDCFE;
+  --ys-button-primary-border-active: #087BFF;
+  --ys-button-primary-border-focus: #0056BB;
+  --ys-accent-primary: #087BFF;
+}

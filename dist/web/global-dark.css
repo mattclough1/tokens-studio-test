@@ -1,0 +1,31 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    
+    --ys-divider-base: #333333;
+    --ys-divider-primary: #464646;
+    --ys-divider-secondary: #555555;
+    --ys-divider-tertiary: #777777;
+    --ys-text-primary: #E2E2E2;
+    --ys-text-secondary: #BDBDBD;
+    --ys-text-tertiary: #A5A5A5;
+    --ys-text-dim: #8B8B8B;
+    --ys-icon-primary: #E2E2E2;
+    --ys-icon-secondary: #777777;
+  }
+}
+
+[color-sceme="dark"] {
+  color-scheme: dark;
+  
+  --ys-divider-base: #333333;
+  --ys-divider-primary: #464646;
+  --ys-divider-secondary: #555555;
+  --ys-divider-tertiary: #777777;
+  --ys-text-primary: #E2E2E2;
+  --ys-text-secondary: #BDBDBD;
+  --ys-text-tertiary: #A5A5A5;
+  --ys-text-dim: #8B8B8B;
+  --ys-icon-primary: #E2E2E2;
+  --ys-icon-secondary: #777777;
+}

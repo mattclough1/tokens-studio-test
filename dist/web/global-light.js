@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 30 Mar 2023 19:36:21 GMT
+ * Generated on Fri, 31 Mar 2023 19:14:22 GMT
  */
 
 export const surfaceBase = "#FFFFFF";
@@ -19,9 +19,3 @@ export const iconPrimary = "#333333";
 export const iconSecondary = "#8B8B8B";
 export const iconTwotonePrimary = "#A5A5A5";
 export const iconTwotoneSecondary = "#FFFFFF";
-export const buttonPrimarySurfaceRest = "#FF3300";
-export const buttonPrimarySurfaceHover = "#C92800";
-export const buttonPrimarySurfaceDisabled = "#FFC2B2";
-export const buttonPrimaryTextRest = "#FFFFFF";
-export const buttonPrimaryTextHover = "#FFFFFF";
-export const buttonPrimaryTextDisabled = "#FFFFFF";
