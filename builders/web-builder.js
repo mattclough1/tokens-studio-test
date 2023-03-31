@@ -163,19 +163,14 @@ styleDictionaryJSON[GLOBAL] = transformTokens(rawTokens, [GLOBAL], [], {
 });
 
 const styleDictionaries = [GLOBAL, ...nonGlobalSetKeys].map((key) => {
-  // let selectors = [];
   const theme = key.toLowerCase().match(/(backcountry|hunt|offroad)/)?.[1];
   let formatter = "css/variables";
   if (/dark/.test(key)) {
-    // selectors.push('[data-color-scheme="dark"]');
     formatter = `${formatter}/dark`;
   }
   if (/light/.test(key)) {
     formatter = `${formatter}/light`;
   }
-  // if (theme) {
-  //   selectors.push(`[data-theme="${theme}"]`);
-  // }
   return StyleDictionary.extend({
     tokens: styleDictionaryJSON[key],
     platforms: {
