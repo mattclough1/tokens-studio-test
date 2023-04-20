@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-  :root[data-theme="hunt"] {
+  :where(html[data-theme="hunt"]) {
     color-scheme: dark;
     
     --ys-button-primary-surface-rest: #C92800;
@@ -18,7 +18,7 @@
   }
 }
 
-[color-scheme="dark"][data-theme="hunt"] {
+:where(html[color-scheme="dark"][data-theme="hunt"]) {
   color-scheme: dark;
   
   --ys-button-primary-surface-rest: #C92800;

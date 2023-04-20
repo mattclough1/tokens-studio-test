@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-  :root {
+  :where(html) {
     color-scheme: dark;
     
     --ys-divider-base: #333333;
@@ -15,7 +15,7 @@
   }
 }
 
-[color-scheme="dark"] {
+:where(html[color-scheme="dark"]) {
   color-scheme: dark;
   
   --ys-divider-base: #333333;

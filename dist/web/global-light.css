@@ -1,4 +1,4 @@
-:root {
+:where(html) {
   color-scheme: light;
   
   --ys-surface-base: #FFFFFF;
@@ -19,7 +19,7 @@
   --ys-icon-twotone-secondary: #FFFFFF;
 }
 
-[color-scheme="light"] {
+:where(html[color-scheme="light"]) {
   color-scheme: light;
   
   --ys-surface-base: #FFFFFF;

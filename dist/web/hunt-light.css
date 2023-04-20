@@ -1,4 +1,4 @@
-:root[data-theme="hunt"] {
+:where(html[data-theme="hunt"]) {
   color-scheme: light;
   
   --ys-button-primary-surface-rest: #FF3300;
@@ -16,7 +16,7 @@
   --ys-accent-primary: #FF3300;
 }
 
-[color-scheme="light"][data-theme="hunt"] {
+:where(html[color-scheme="light"][data-theme="hunt"]) {
   color-scheme: light;
   
   --ys-button-primary-surface-rest: #FF3300;

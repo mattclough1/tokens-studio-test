@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 31 Mar 2023 20:52:16 GMT
+ * Generated on Thu, 20 Apr 2023 18:35:51 GMT
  */
 
 export const dividerBase = "#333333";

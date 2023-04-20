@@ -1,4 +1,4 @@
-:root[data-theme="backcountry"] {
+:where(html[data-theme="backcountry"]) {
   color-scheme: light;
   
   --ys-button-primary-surface-rest: #087BFF;
@@ -16,7 +16,7 @@
   --ys-accent-primary: #087BFF;
 }
 
-[color-scheme="light"][data-theme="backcountry"] {
+:where(html[color-scheme="light"][data-theme="backcountry"]) {
   color-scheme: light;
   
   --ys-button-primary-surface-rest: #087BFF;

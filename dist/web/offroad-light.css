@@ -1,4 +1,4 @@
-:root[data-theme="offroad"] {
+:where(html[data-theme="offroad"]) {
   color-scheme: light;
   
   --ys-button-primary-surface-rest: #FF9F0E;
@@ -16,7 +16,7 @@
   --ys-accent-primary: #FF9F0E;
 }
 
-[color-scheme="light"][data-theme="offroad"] {
+:where(html[color-scheme="light"][data-theme="offroad"]) {
   color-scheme: light;
   
   --ys-button-primary-surface-rest: #FF9F0E;
