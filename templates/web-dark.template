@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-  :root<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %> {
+  :where(html<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %>) {
     color-scheme: dark;
     <% allTokens.forEach((token) => {
     %>
@@ -8,7 +8,7 @@
   }
 }
 
-[color-scheme="dark"]<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %> {
+:where(html[color-scheme="dark"]<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %>) {
   color-scheme: dark;
   <% allTokens.forEach((token) => {
   %>

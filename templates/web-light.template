@@ -1,4 +1,4 @@
-:root<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %> {
+:where(html<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %>) {
   color-scheme: light;
   <% allTokens.forEach((token) => {
   %>
@@ -6,7 +6,7 @@
   }) %>
 }
 
-[color-scheme="light"]<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %> {
+:where(html[color-scheme="light"]<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %>) {
   color-scheme: light;
   <% allTokens.forEach((token) => {
   %>
