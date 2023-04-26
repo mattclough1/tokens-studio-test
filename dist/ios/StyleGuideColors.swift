@@ -196,12 +196,4 @@ public extension UIColor {
         return UIColor(hex: 0x332105)
     }
     
-    static var special: UIColor {
-        return UIColor(hex: 0x23BDAD)
-    }
-    
-    static var special2: UIColor {
-        return UIColor(hex: 0x9E20A0)
-    }
-    
 }
