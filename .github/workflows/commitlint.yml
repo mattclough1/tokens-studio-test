@@ -1,7 +1,10 @@
 name: Check conventional commit
 
 on:
-  push:
+  pull_request:
+    types:
+      - opened
+      - reopened
     paths:
       - "tokens.json"
 
