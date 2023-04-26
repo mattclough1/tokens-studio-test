@@ -5,7 +5,8 @@
   "main": "dist/web/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-tokens": "node scripts/build-tokens.js"
+    "build-tokens": "node scripts/build-tokens.js",
+    "commitlint": "commitlint --edit"
   },
   "repository": {
     "type": "git",
