@@ -1,6 +1,6 @@
 {
   "name": "@mattclough/tokens-studio-test",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/web/index.js",
   "scripts": {
