@@ -1,16 +1,17 @@
 {
   "name": "@mattclough/tokens-studio-test",
-  "version": "1.14.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "dist/web/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-tokens": "node scripts/build-tokens.js",
-    "commitlint": "commitlint --edit $1"
+    "commitlint": "commitlint --edit $1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattclough1/tokens-studio-test.git"
+    "url": "https://github.com/mattclough1/tokens-studio-test.git"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +25,7 @@
     "husky": "^8.0.3",
     "lodash": "^4.17.21",
     "rimraf": "^4.4.1",
+    "semantic-release": "^21.0.1",
     "style-dictionary": "^3.7.2",
     "token-transformer": "^0.0.32"
   },
