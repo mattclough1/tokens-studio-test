@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 Apr 2023 17:17:46 GMT
+ * Generated on Wed, 26 Apr 2023 18:45:55 GMT
  */
 
 export const buttonPrimarySurfaceRest = "#BD7200";
