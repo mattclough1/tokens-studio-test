@@ -20,6 +20,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
+    "husky": "^8.0.3",
     "lodash": "^4.17.21",
     "rimraf": "^4.4.1",
     "style-dictionary": "^3.7.2",

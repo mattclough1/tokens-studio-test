@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Apr 2023 18:35:51 GMT
+ * Generated on Wed, 26 Apr 2023 16:44:57 GMT
  */
 
 export const buttonPrimarySurfaceRest = "#0056BB";

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Apr 2023 18:35:51 GMT
+ * Generated on Wed, 26 Apr 2023 16:44:57 GMT
  */
 
 export const white = "#FFFFFF";
@@ -48,3 +48,4 @@ export const yellow80 = "#BD7200";
 export const yellow90 = "#895506";
 export const yellow100 = "#694207";
 export const yellow110 = "#332105";
+export const special = "#5bb69f";
