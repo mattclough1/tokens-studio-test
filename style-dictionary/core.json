@@ -1887,6 +1887,22 @@
         "color",
         "jazz1"
       ]
+    },
+    "jazz2": {
+      "value": "#ea88ebd6",
+      "type": "color",
+      "original": {
+        "value": "#ea88ebd6",
+        "type": "color"
+      },
+      "name": "colorJazz2",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz2"
+      ]
     }
   }
 }
