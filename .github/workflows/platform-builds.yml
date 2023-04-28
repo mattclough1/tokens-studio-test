@@ -32,9 +32,6 @@ jobs:
       - name: Build web design tokens
         run: npm run build:web
 
-      - name: Bump node module version
-        run: npx semantic-release --extends ./web/release.web.config.js
-
       - name: Set outputs
         id: vars
         run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
@@ -48,3 +45,6 @@ jobs:
           labels: automated-pr
           branch: "build-web-tokens-${{ hashFiles('web/dist/**') }}"
           delete-branch: true
+
+      - name: Bump node module version
+        run: npx semantic-release --extends ./web/release.web.config.js --branches build-web-tokens-${{ hashFiles('web/dist/**') }}
