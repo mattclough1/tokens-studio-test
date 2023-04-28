@@ -1903,6 +1903,22 @@
         "color",
         "jazz2"
       ]
+    },
+    "jazz3": {
+      "value": "#834848",
+      "type": "color",
+      "original": {
+        "value": "#834848",
+        "type": "color"
+      },
+      "name": "colorJazz3",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz3"
+      ]
     }
   }
 }
