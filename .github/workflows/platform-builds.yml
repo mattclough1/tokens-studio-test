@@ -48,4 +48,4 @@ jobs:
           delete-branch: true
 
       - name: Bump node module version
-        run: npx semantic-release --extends ./web/release.web.config.js --branches [build-web-tokens-${{ hashFiles('web/dist/**') }}]
+        run: npx semantic-release --extends ./web/release.web.config.js --branches ['build-web-tokens-${{ hashFiles('web/dist/**') }}']
