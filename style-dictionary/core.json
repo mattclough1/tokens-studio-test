@@ -1855,6 +1855,22 @@
           "110"
         ]
       }
+    },
+    "test": {
+      "value": "#7c6464",
+      "type": "color",
+      "original": {
+        "value": "#7c6464",
+        "type": "color"
+      },
+      "name": "colorTest",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "test"
+      ]
     }
   }
 }
