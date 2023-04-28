@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 28 Apr 2023 15:52:08 GMT
+ * Generated on Fri, 28 Apr 2023 18:30:46 GMT
  */
 
 :root {
@@ -112,4 +112,8 @@
   --ys-color-error-red-100: #660000ff;
   --ys-color-error-red-110: #330000ff;
   --ys-color-test: #7c6464ff;
+  --ys-color-jazz1: #d55959ff;
+  --ys-color-jazz2: #ea88ebd6;
+  --ys-color-jazz3: #834848ff;
+  --ys-color-jazz4: #72a5ceff;
 }
