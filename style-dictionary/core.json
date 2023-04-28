@@ -1871,6 +1871,22 @@
         "color",
         "test"
       ]
+    },
+    "jazz1": {
+      "value": "#d55959",
+      "type": "color",
+      "original": {
+        "value": "#d55959",
+        "type": "color"
+      },
+      "name": "colorJazz1",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz1"
+      ]
     }
   }
 }
