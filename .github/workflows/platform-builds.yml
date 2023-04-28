@@ -39,13 +39,12 @@ jobs:
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
+        env:
+          branch_hash: "${{ steps.vars.outputs.dist_hash }}"
         with:
           commit-message: "build web design tokens for ${{ steps.vars.outputs.sha_short }}"
           title: "Build web design tokens for ${{ steps.vars.outputs.sha_short }}"
           base: main
           labels: automated-pr
-          branch: "build-web-tokens-${{ hashFiles('web/dist/**') }}"
+          branch: "build-web-tokens-${{ hashFiles('web/dist/**') }: -7}"
           delete-branch: true
-
-      - name: Bump node module version
-        run: npx semantic-release --extends ./web/release.web.config.js --branches ['build-web-tokens-${{ hashFiles('web/dist/**') }}']
