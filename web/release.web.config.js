@@ -9,5 +9,13 @@ module.exports = {
         npmPublish: false,
       },
     ],
+    [
+      "@semantic-release/github",
+      {
+        assets: ["web/package.json"],
+        message:
+          "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+      },
+    ],
   ],
 };

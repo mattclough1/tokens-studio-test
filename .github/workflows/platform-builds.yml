@@ -37,6 +37,9 @@ jobs:
           echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
           echo "dist_hash_short=$(echo "${{ hashFiles('web/dist/**') }}" | cut -c1-7)" >> $GITHUB_OUTPUT
 
+      - name: Create release for node module
+        run: npx semantic-release --extends ./web/release.web.config.js
+
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         with:
@@ -46,6 +49,3 @@ jobs:
           labels: automated-pr
           branch: "build-web-tokens-${{ steps.vars.outputs.sha_short }}"
           delete-branch: true
-
-      - name: Create release for node module
-        run: npx semantic-release --extends web/release.web.config.js
