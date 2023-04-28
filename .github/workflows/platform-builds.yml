@@ -1,0 +1,44 @@
+name: Build
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "style-dictionary/*.json"
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        id: setup-node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build web design tokens
+        run: npm run build:web
+
+      - name: Set outputs
+        id: vars
+        run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "build web design tokens for ${{ steps.vars.outputs.sha_short }}"
+          title: "Build web design tokens for ${{ steps.vars.outputs.sha_short }}"
+          base: main
+          labels: automated-pr
+          branch: "build-web-tokens-${{ hashFiles('web/dist/**') }}"
+          delete-branch: true

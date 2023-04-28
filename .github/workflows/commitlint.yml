@@ -1,4 +1,4 @@
-name: Check conventional commit
+name: Ensure conventional commits
 
 on:
   pull_request:

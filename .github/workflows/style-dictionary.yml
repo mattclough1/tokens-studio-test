@@ -1,0 +1,40 @@
+name: Style Dictionary
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "tokens.json"
+  workflow_dispatch:
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Transform to Style Dictionary
+        run: npm run style-dictionary
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Transform Tokens Studio tokens to Style Dictionary
+          title: Transform Tokens Studio tokens to Style Dictionary
+          base: main
+          labels: automated-pr
+          branch: tokens-studio-to-style-dictionary
+          delete-branch: true
