@@ -1,0 +1,190 @@
+{
+  "color": {
+    "divider": {
+      "base": {
+        "value": "#333333",
+        "type": "color",
+        "original": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "name": "colorDividerBase",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "divider",
+          "base"
+        ]
+      },
+      "primary": {
+        "value": "#464646",
+        "type": "color",
+        "original": {
+          "value": "#464646",
+          "type": "color"
+        },
+        "name": "colorDividerPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "divider",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#555555",
+        "type": "color",
+        "original": {
+          "value": "#555555",
+          "type": "color"
+        },
+        "name": "colorDividerSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "divider",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "#777777",
+        "type": "color",
+        "original": {
+          "value": "#777777",
+          "type": "color"
+        },
+        "name": "colorDividerTertiary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "divider",
+          "tertiary"
+        ]
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#E2E2E2",
+        "type": "color",
+        "original": {
+          "value": "#E2E2E2",
+          "type": "color"
+        },
+        "name": "colorTextPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "text",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#BDBDBD",
+        "type": "color",
+        "original": {
+          "value": "#BDBDBD",
+          "type": "color"
+        },
+        "name": "colorTextSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "text",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "#A5A5A5",
+        "type": "color",
+        "original": {
+          "value": "#A5A5A5",
+          "type": "color"
+        },
+        "name": "colorTextTertiary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "text",
+          "tertiary"
+        ]
+      },
+      "dim": {
+        "value": "#8B8B8B",
+        "type": "color",
+        "original": {
+          "value": "#8B8B8B",
+          "type": "color"
+        },
+        "name": "colorTextDim",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "text",
+          "dim"
+        ]
+      }
+    },
+    "icon": {
+      "primary": {
+        "value": "#E2E2E2",
+        "type": "color",
+        "original": {
+          "value": "#E2E2E2",
+          "type": "color"
+        },
+        "name": "colorIconPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "icon",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#8B8B8B",
+        "type": "color",
+        "original": {
+          "value": "#8B8B8B",
+          "type": "color"
+        },
+        "name": "colorIconSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark"
+        },
+        "path": [
+          "color",
+          "icon",
+          "secondary"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "color": {
+    "surface": {
+      "base": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "original": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "name": "colorSurfaceBase",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "surface",
+          "base"
+        ]
+      },
+      "primary": {
+        "value": "#F5F5F5",
+        "type": "color",
+        "original": {
+          "value": "#F5F5F5",
+          "type": "color"
+        },
+        "name": "colorSurfacePrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "surface",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#E2E2E2",
+        "type": "color",
+        "original": {
+          "value": "#E2E2E2",
+          "type": "color"
+        },
+        "name": "colorSurfaceSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "surface",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "#BDBDBD",
+        "type": "color",
+        "original": {
+          "value": "#BDBDBD",
+          "type": "color"
+        },
+        "name": "colorSurfaceTertiary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "surface",
+          "tertiary"
+        ]
+      }
+    },
+    "divider": {
+      "base": {
+        "value": "#E2E2E2",
+        "type": "color",
+        "original": {
+          "value": "#E2E2E2",
+          "type": "color"
+        },
+        "name": "colorDividerBase",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "divider",
+          "base"
+        ]
+      },
+      "primary": {
+        "value": "#BDBDBD",
+        "type": "color",
+        "original": {
+          "value": "#BDBDBD",
+          "type": "color"
+        },
+        "name": "colorDividerPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "divider",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#A5A5A5",
+        "type": "color",
+        "original": {
+          "value": "#A5A5A5",
+          "type": "color"
+        },
+        "name": "colorDividerSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "divider",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "#8B8B8B",
+        "type": "color",
+        "original": {
+          "value": "#8B8B8B",
+          "type": "color"
+        },
+        "name": "colorDividerTertiary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "divider",
+          "tertiary"
+        ]
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#333333",
+        "type": "color",
+        "original": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "name": "colorTextPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "text",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#464646",
+        "type": "color",
+        "original": {
+          "value": "#464646",
+          "type": "color"
+        },
+        "name": "colorTextSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "text",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "#555555",
+        "type": "color",
+        "original": {
+          "value": "#555555",
+          "type": "color"
+        },
+        "name": "colorTextTertiary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "text",
+          "tertiary"
+        ]
+      },
+      "dim": {
+        "value": "#666666",
+        "type": "color",
+        "original": {
+          "value": "#666666",
+          "type": "color"
+        },
+        "name": "colorTextDim",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "text",
+          "dim"
+        ]
+      }
+    },
+    "icon": {
+      "primary": {
+        "value": "#333333",
+        "type": "color",
+        "original": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "name": "colorIconPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "icon",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#8B8B8B",
+        "type": "color",
+        "original": {
+          "value": "#8B8B8B",
+          "type": "color"
+        },
+        "name": "colorIconSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "light"
+        },
+        "path": [
+          "color",
+          "icon",
+          "secondary"
+        ]
+      },
+      "twotone": {
+        "primary": {
+          "value": "#A5A5A5",
+          "type": "color",
+          "original": {
+            "value": "#A5A5A5",
+            "type": "color"
+          },
+          "name": "colorIconTwotonePrimary",
+          "attributes": {
+            "category": "color",
+            "mode": "light"
+          },
+          "path": [
+            "color",
+            "icon",
+            "twotone",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "original": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "name": "colorIconTwotoneSecondary",
+          "attributes": {
+            "category": "color",
+            "mode": "light"
+          },
+          "path": [
+            "color",
+            "icon",
+            "twotone",
+            "secondary"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@media (prefers-color-scheme: dark) {
+  :where(html[data-theme="offroad"]) {
+    color-scheme: dark;
+    
+    --ys-button-color-primary-surface-rest: #bd7200ff;
+    --ys-button-color-primary-surface-hover: #ff9f0eff;
+    --ys-button-color-primary-surface-active: #ff9f0eff;
+    --ys-button-color-primary-surface-focus: #bd7200ff;
+    --ys-button-color-primary-surface-disabled: #694207ff;
+    --ys-button-color-primary-text-rest: #222222ff;
+    --ys-button-color-primary-text-hover: #222222ff;
+    --ys-button-color-primary-text-active: #222222ff;
+    --ys-button-color-primary-text-focus: #222222ff;
+    --ys-button-color-primary-text-disabled: #332105ff;
+    --ys-button-color-primary-border-active: #bd7200ff;
+    --ys-button-color-primary-border-focus: #ff9f0eff;
+    --ys-color-accent-primary: #bd7200ff;
+    --ys-color-surface-base: #110e0bff;
+    --ys-color-surface-primary: #33312eff;
+    --ys-color-surface-secondary: #46433fff;
+    --ys-color-surface-tertiary: #55524dff;
+    --ys-color-icon-twotone-primary: #a5a5a5ff;
+    --ys-color-icon-twotone-secondary: #110e0bff;
+  }
+}
+
+:where(html[color-scheme="dark"][data-theme="offroad"]) {
+  color-scheme: dark;
+  
+  --ys-button-color-primary-surface-rest: #bd7200ff;
+  --ys-button-color-primary-surface-hover: #ff9f0eff;
+  --ys-button-color-primary-surface-active: #ff9f0eff;
+  --ys-button-color-primary-surface-focus: #bd7200ff;
+  --ys-button-color-primary-surface-disabled: #694207ff;
+  --ys-button-color-primary-text-rest: #222222ff;
+  --ys-button-color-primary-text-hover: #222222ff;
+  --ys-button-color-primary-text-active: #222222ff;
+  --ys-button-color-primary-text-focus: #222222ff;
+  --ys-button-color-primary-text-disabled: #332105ff;
+  --ys-button-color-primary-border-active: #bd7200ff;
+  --ys-button-color-primary-border-focus: #ff9f0eff;
+  --ys-color-accent-primary: #bd7200ff;
+  --ys-color-surface-base: #110e0bff;
+  --ys-color-surface-primary: #33312eff;
+  --ys-color-surface-secondary: #46433fff;
+  --ys-color-surface-tertiary: #55524dff;
+  --ys-color-icon-twotone-primary: #a5a5a5ff;
+  --ys-color-icon-twotone-secondary: #110e0bff;
+}

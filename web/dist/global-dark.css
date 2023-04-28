@@ -1,0 +1,31 @@
+@media (prefers-color-scheme: dark) {
+  :where(html) {
+    color-scheme: dark;
+    
+    --ys-color-divider-base: #333333ff;
+    --ys-color-divider-primary: #464646ff;
+    --ys-color-divider-secondary: #555555ff;
+    --ys-color-divider-tertiary: #777777ff;
+    --ys-color-text-primary: #e2e2e2ff;
+    --ys-color-text-secondary: #bdbdbdff;
+    --ys-color-text-tertiary: #a5a5a5ff;
+    --ys-color-text-dim: #8b8b8bff;
+    --ys-color-icon-primary: #e2e2e2ff;
+    --ys-color-icon-secondary: #8b8b8bff;
+  }
+}
+
+:where(html[color-scheme="dark"]) {
+  color-scheme: dark;
+  
+  --ys-color-divider-base: #333333ff;
+  --ys-color-divider-primary: #464646ff;
+  --ys-color-divider-secondary: #555555ff;
+  --ys-color-divider-tertiary: #777777ff;
+  --ys-color-text-primary: #e2e2e2ff;
+  --ys-color-text-secondary: #bdbdbdff;
+  --ys-color-text-tertiary: #a5a5a5ff;
+  --ys-color-text-dim: #8b8b8bff;
+  --ys-color-icon-primary: #e2e2e2ff;
+  --ys-color-icon-secondary: #8b8b8bff;
+}

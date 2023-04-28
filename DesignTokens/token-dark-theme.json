@@ -1,0 +1,180 @@
+{
+	"Dark Theme": {
+		"Alerts": {
+			"Error": {
+				"value": "#bc0000"
+			},
+			"Success": {
+				"value": "#65b604"
+			},
+			"Warning": {
+				"value": "#e89712"
+			}
+		},
+		"Brand": {
+			"Backcountry": {
+				"value": "#0056bb"
+			},
+			"Hunt": {
+				"value": "#c92800"
+			},
+			"Offroad": {
+				"value": "#d07d00"
+			}
+		},
+		"Buttons": {
+			"Primary": {
+				"Backcountry Primary Surface": {
+					"value": "#0056bb"
+				},
+				"Backcountry Primary Surface Disabled": {
+					"value": "#083366"
+				},
+				"Backcountry Primary Surface Hover": {
+					"value": "#087aff"
+				},
+				"Hunt Primary Surface": {
+					"value": "#c92800"
+				},
+				"Hunt Primary Surface Disabled": {
+					"value": "#6d1c08"
+				},
+				"Hunt Primary Surface Hover": {
+					"value": "#ff3300"
+				},
+				"Offroad Primary Surface": {
+					"value": "#d07d00"
+				},
+				"Offroad Primary Surface Hover": {
+					"value": "#ff9f0e"
+				},
+				"Offroad Primary Text": {
+					"value": "#222222"
+				},
+				"Offroad Primary Text Disabled": {
+					"value": "#191919"
+				},
+				"Primary Text Disabled": {
+					"value": "#888888"
+				}
+			},
+			"Secondary Outline": {
+				"Secondary Outline Stroke": {
+					"value": "#e2e2e2"
+				},
+				"Secondary Outline Stroke Disabled": {
+					"value": "#797979"
+				},
+				"Secondary Outline Stroke Hover": {
+					"value": "#f5f5f5"
+				},
+				"Secondary Outline Text": {
+					"value": "#e2e2e2"
+				},
+				"Secondary Outline Text Disabled": {
+					"value": "#797979"
+				},
+				"Secondary Outline Text Hover": {
+					"value": "#f5f5f5"
+				},
+				"Secondary Text Disabled": {
+					"value": "#797979"
+				}
+			},
+			"Secondary": {
+				"Secondary Surface": {
+					"value": "#464646"
+				},
+				"Secondary Surface Disabled": {
+					"value": "#252525"
+				},
+				"Secondary Surface Hover": {
+					"value": "#555555"
+				},
+				"Secondary Text": {
+					"value": "#e2e2e2"
+				}
+			}
+		},
+		"Dividers": {
+			"Divider Base": {
+				"value": "#333333"
+			},
+			"Divider Primary": {
+				"value": "#464646"
+			},
+			"Divider Secondary": {
+				"value": "#555555"
+			},
+			"Divider Tertiary": {
+				"value": "#777777"
+			}
+		},
+		"Icons": {
+			"Icon Primary": {
+				"value": "#e2e2e2"
+			},
+			"Icon Secondary": {
+				"value": "#8b8b8b"
+			}
+		},
+		"Surfaces": {
+			"Backcountry Surfaces": {
+				"Surface Base": {
+					"value": "#0a0d11"
+				},
+				"Surface Primary": {
+					"value": "#2e3033"
+				},
+				"Surface Secondary": {
+					"value": "#3f4246"
+				},
+				"Surface Tertiary": {
+					"value": "#4d5155"
+				}
+			},
+			"Hunt Surfaces": {
+				"Surface Base": {
+					"value": "#110e0e"
+				},
+				"Surface Primary": {
+					"value": "#333130"
+				},
+				"Surface Secondary": {
+					"value": "#464342"
+				},
+				"Surface Tertiary": {
+					"value": "#555251"
+				}
+			},
+			"Offroad Surfaces": {
+				"Surface Base": {
+					"value": "#110e0b"
+				},
+				"Surface Primary": {
+					"value": "#33312e"
+				},
+				"Surface Secondary": {
+					"value": "#46433f"
+				},
+				"Surface Tertiary": {
+					"value": "#55524d"
+				}
+			}
+		},
+		"Text": {
+			"Text Dim": {
+				"value": "#8b8b8b"
+			},
+			"Text Primary": {
+				"value": "#e2e2e2"
+			},
+			"Text Secondary": {
+				"value": "#bdbdbd"
+			},
+			"Text Tertiary": {
+				"value": "#a5a5a5"
+			}
+		}
+	}
+}

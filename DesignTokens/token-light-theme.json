@@ -1,0 +1,162 @@
+{
+	"Light Theme": {
+		"Alerts": {
+			"Error": {
+				"value": "#db0000"
+			},
+			"Success": {
+				"value": "#65b604"
+			},
+			"Warning": {
+				"value": "#f5a623"
+			}
+		},
+		"Brand": {
+			"Backcountry": {
+				"value": "#087aff"
+			},
+			"Hunt": {
+				"value": "#ff3300"
+			},
+			"Offroad": {
+				"value": "#ff9f0e"
+			}
+		},
+		"Buttons": {
+			"Primary": {
+				"Backcountry Primary Surface": {
+					"value": "#087aff"
+				},
+				"Backcountry Primary Surface Disabled": {
+					"value": "#83bcff"
+				},
+				"Backcountry Primary Surface Hover": {
+					"value": "#0056bb"
+				},
+				"Hunt Primary Surface": {
+					"value": "#ff3300"
+				},
+				"Hunt Primary Surface Disabled": {
+					"value": "#ffc2b2"
+				},
+				"Hunt Primary Surface Hover": {
+					"value": "#c92800"
+				},
+				"Offroad Primary Text": {
+					"value": "#222222"
+				},
+				"Offroad Primary Text Disabled": {
+					"value": "#909090"
+				},
+				"Offroard Primary Surface": {
+					"value": "#ff9f0e"
+				},
+				"Offroard Primary Surface Disabled": {
+					"value": "#ffcf87"
+				},
+				"Offroard Primary Surface Hover": {
+					"value": "#d07d00"
+				},
+				"Primary Text": {
+					"value": "#ffffff"
+				}
+			},
+			"Secondary Outline": {
+				"Secondary Outline Stroke": {
+					"value": "#333333"
+				},
+				"Secondary Outline Stroke Disabled": {
+					"value": "#c2c2c2"
+				},
+				"Secondary Outline Stroke Hover": {
+					"value": "#111111"
+				},
+				"Secondary Outline Text": {
+					"value": "#333333"
+				},
+				"Secondary Outline Text Disabled": {
+					"value": "#c2c2c2"
+				},
+				"Secondary Outline Text Hover": {
+					"value": "#111111"
+				}
+			},
+			"Secondary": {
+				"Secondary Surface": {
+					"value": "#e2e2e2"
+				},
+				"Secondary Surface Disabled": {
+					"value": "#f0f0f0"
+				},
+				"Secondary Surface Hover": {
+					"value": "#bdbdbd"
+				},
+				"Secondary Text": {
+					"value": "#333333"
+				},
+				"Secondary Text Disabled": {
+					"value": "#999999"
+				},
+				"Secondary Text Hover": {
+					"value": "#111111"
+				}
+			}
+		},
+		"Dividers": {
+			"Divider Base": {
+				"value": "#e2e2e2"
+			},
+			"Divider Primary": {
+				"value": "#bdbdbd"
+			},
+			"Divider Secondary": {
+				"value": "#a5a5a5"
+			},
+			"Divider Tertiary": {
+				"value": "#8b8b8b"
+			}
+		},
+		"Icons": {
+			"Icon Primary": {
+				"value": "#333333"
+			},
+			"Icon Secondary": {
+				"value": "#8b8b8b"
+			},
+			"Two Tone Primary": {
+				"value": "#a5a5a5"
+			},
+			"Two Tone Secondary": {
+				"value": "#ffffff"
+			}
+		},
+		"Surfaces": {
+			"Surface Base": {
+				"value": "#ffffff"
+			},
+			"Surface Primary": {
+				"value": "#f5f5f5"
+			},
+			"Surface Secondary": {
+				"value": "#e2e2e2"
+			},
+			"Surface Tertiary": {
+				"value": "#bdbdbd"
+			}
+		},
+		"Text": {
+			"Text Dim": {
+				"value": "#666666"
+			},
+			"Text Primary": {
+				"value": "#333333"
+			},
+			"Text Secondary": {
+				"value": "#464646"
+			},
+			"Text Tertiary": {
+				"value": "#555555"
+			}
+		}
+	}
+}

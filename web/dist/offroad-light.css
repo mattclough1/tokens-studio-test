@@ -1,0 +1,35 @@
+:where(html[data-theme="offroad"]) {
+  color-scheme: light;
+  
+  --ys-button-color-primary-surface-rest: #ff9f0eff;
+  --ys-button-color-primary-surface-hover: #ffb23dff;
+  --ys-button-color-primary-surface-active: #ffb23dff;
+  --ys-button-color-primary-surface-focus: #ff9f0eff;
+  --ys-button-color-primary-surface-disabled: #ffce84ff;
+  --ys-button-color-primary-text-rest: #222222ff;
+  --ys-button-color-primary-text-hover: #222222ff;
+  --ys-button-color-primary-text-active: #222222ff;
+  --ys-button-color-primary-text-focus: #222222ff;
+  --ys-button-color-primary-text-disabled: #ffb23dff;
+  --ys-button-color-primary-border-active: #ff9f0eff;
+  --ys-button-color-primary-border-focus: #ffb23dff;
+  --ys-color-accent-primary: #ff9f0eff;
+}
+
+:where(html[color-scheme="light"][data-theme="offroad"]) {
+  color-scheme: light;
+  
+  --ys-button-color-primary-surface-rest: #ff9f0eff;
+  --ys-button-color-primary-surface-hover: #ffb23dff;
+  --ys-button-color-primary-surface-active: #ffb23dff;
+  --ys-button-color-primary-surface-focus: #ff9f0eff;
+  --ys-button-color-primary-surface-disabled: #ffce84ff;
+  --ys-button-color-primary-text-rest: #222222ff;
+  --ys-button-color-primary-text-hover: #222222ff;
+  --ys-button-color-primary-text-active: #222222ff;
+  --ys-button-color-primary-text-focus: #222222ff;
+  --ys-button-color-primary-text-disabled: #ffb23dff;
+  --ys-button-color-primary-border-active: #ff9f0eff;
+  --ys-button-color-primary-border-focus: #ffb23dff;
+  --ys-color-accent-primary: #ff9f0eff;
+}

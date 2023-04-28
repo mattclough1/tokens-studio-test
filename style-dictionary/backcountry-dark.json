@@ -1,0 +1,411 @@
+{
+  "button": {
+    "color": {
+      "primary": {
+        "surface": {
+          "rest": {
+            "value": "#0056BB",
+            "type": "color",
+            "original": {
+              "value": "#0056BB",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceRest",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "rest"
+            ]
+          },
+          "hover": {
+            "value": "#087BFF",
+            "type": "color",
+            "original": {
+              "value": "#087BFF",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceHover",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "hover"
+            ]
+          },
+          "active": {
+            "value": "#087BFF",
+            "type": "color",
+            "original": {
+              "value": "#087BFF",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceActive",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "active"
+            ]
+          },
+          "focus": {
+            "value": "#0056BB",
+            "type": "color",
+            "original": {
+              "value": "#0056BB",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceFocus",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "focus"
+            ]
+          },
+          "disabled": {
+            "value": "#083366",
+            "type": "color",
+            "original": {
+              "value": "#083366",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceDisabled",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "disabled"
+            ]
+          }
+        },
+        "text": {
+          "rest": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "original": {
+              "value": "#FFFFFF",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextRest",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "rest"
+            ]
+          },
+          "hover": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "original": {
+              "value": "#FFFFFF",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextHover",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "hover"
+            ]
+          },
+          "active": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "original": {
+              "value": "#FFFFFF",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextActive",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "active"
+            ]
+          },
+          "focus": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "original": {
+              "value": "#FFFFFF",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextFocus",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "focus"
+            ]
+          },
+          "disabled": {
+            "value": "#004899",
+            "type": "color",
+            "original": {
+              "value": "#004899",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextDisabled",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "disabled"
+            ]
+          }
+        },
+        "border": {
+          "active": {
+            "value": "#0056BB",
+            "type": "color",
+            "original": {
+              "value": "#0056BB",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryBorderActive",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "border",
+              "active"
+            ]
+          },
+          "focus": {
+            "value": "#087BFF",
+            "type": "color",
+            "original": {
+              "value": "#087BFF",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryBorderFocus",
+            "attributes": {
+              "category": "color",
+              "mode": "dark",
+              "theme": "backcountry"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "border",
+              "focus"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "color": {
+    "accent": {
+      "primary": {
+        "value": "#0056BB",
+        "type": "color",
+        "original": {
+          "value": "#0056BB",
+          "type": "color"
+        },
+        "name": "colorAccentPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark",
+          "theme": "backcountry"
+        },
+        "path": [
+          "color",
+          "accent",
+          "primary"
+        ]
+      }
+    },
+    "surface": {
+      "base": {
+        "value": "#0A0D11",
+        "type": "color",
+        "original": {
+          "value": "#0A0D11",
+          "type": "color"
+        },
+        "name": "colorSurfaceBase",
+        "attributes": {
+          "category": "color",
+          "mode": "dark",
+          "theme": "backcountry"
+        },
+        "path": [
+          "color",
+          "surface",
+          "base"
+        ]
+      },
+      "primary": {
+        "value": "#2E3033",
+        "type": "color",
+        "original": {
+          "value": "#2E3033",
+          "type": "color"
+        },
+        "name": "colorSurfacePrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark",
+          "theme": "backcountry"
+        },
+        "path": [
+          "color",
+          "surface",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": "#3F4246",
+        "type": "color",
+        "original": {
+          "value": "#3F4246",
+          "type": "color"
+        },
+        "name": "colorSurfaceSecondary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark",
+          "theme": "backcountry"
+        },
+        "path": [
+          "color",
+          "surface",
+          "secondary"
+        ]
+      },
+      "tertiary": {
+        "value": "#4D5155",
+        "type": "color",
+        "original": {
+          "value": "#4D5155",
+          "type": "color"
+        },
+        "name": "colorSurfaceTertiary",
+        "attributes": {
+          "category": "color",
+          "mode": "dark",
+          "theme": "backcountry"
+        },
+        "path": [
+          "color",
+          "surface",
+          "tertiary"
+        ]
+      }
+    },
+    "icon": {
+      "twotone": {
+        "primary": {
+          "value": "#A5A5A5",
+          "type": "color",
+          "original": {
+            "value": "#A5A5A5",
+            "type": "color"
+          },
+          "name": "colorIconTwotonePrimary",
+          "attributes": {
+            "category": "color",
+            "mode": "dark",
+            "theme": "backcountry"
+          },
+          "path": [
+            "color",
+            "icon",
+            "twotone",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#0A0D11",
+          "type": "color",
+          "original": {
+            "value": "#0A0D11",
+            "type": "color"
+          },
+          "name": "colorIconTwotoneSecondary",
+          "attributes": {
+            "category": "color",
+            "mode": "dark",
+            "theme": "backcountry"
+          },
+          "path": [
+            "color",
+            "icon",
+            "twotone",
+            "secondary"
+          ]
+        }
+      }
+    }
+  }
+}

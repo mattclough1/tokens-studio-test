@@ -1,0 +1,289 @@
+{
+  "button": {
+    "color": {
+      "primary": {
+        "surface": {
+          "rest": {
+            "value": "#FF9F0E",
+            "type": "color",
+            "original": {
+              "value": "#FF9F0E",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceRest",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "rest"
+            ]
+          },
+          "hover": {
+            "value": "#FFB23D",
+            "type": "color",
+            "original": {
+              "value": "#FFB23D",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceHover",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "hover"
+            ]
+          },
+          "active": {
+            "value": "#FFB23D",
+            "type": "color",
+            "original": {
+              "value": "#FFB23D",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceActive",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "active"
+            ]
+          },
+          "focus": {
+            "value": "#FF9F0E",
+            "type": "color",
+            "original": {
+              "value": "#FF9F0E",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceFocus",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "focus"
+            ]
+          },
+          "disabled": {
+            "value": "#FFCE84",
+            "type": "color",
+            "original": {
+              "value": "#FFCE84",
+              "type": "color"
+            },
+            "name": "buttonColorPrimarySurfaceDisabled",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "surface",
+              "disabled"
+            ]
+          }
+        },
+        "text": {
+          "rest": {
+            "value": "#222222",
+            "type": "color",
+            "original": {
+              "value": "#222222",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextRest",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "rest"
+            ]
+          },
+          "hover": {
+            "value": "#222222",
+            "type": "color",
+            "original": {
+              "value": "#222222",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextHover",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "hover"
+            ]
+          },
+          "active": {
+            "value": "#222222",
+            "type": "color",
+            "original": {
+              "value": "#222222",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextActive",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "active"
+            ]
+          },
+          "focus": {
+            "value": "#222222",
+            "type": "color",
+            "original": {
+              "value": "#222222",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextFocus",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "focus"
+            ]
+          },
+          "disabled": {
+            "value": "#FFB23D",
+            "type": "color",
+            "original": {
+              "value": "#FFB23D",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryTextDisabled",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "text",
+              "disabled"
+            ]
+          }
+        },
+        "border": {
+          "active": {
+            "value": "#FF9F0E",
+            "type": "color",
+            "original": {
+              "value": "#FF9F0E",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryBorderActive",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "border",
+              "active"
+            ]
+          },
+          "focus": {
+            "value": "#FFB23D",
+            "type": "color",
+            "original": {
+              "value": "#FFB23D",
+              "type": "color"
+            },
+            "name": "buttonColorPrimaryBorderFocus",
+            "attributes": {
+              "category": "color",
+              "mode": "light",
+              "theme": "offroad"
+            },
+            "path": [
+              "button",
+              "color",
+              "primary",
+              "border",
+              "focus"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "color": {
+    "accent": {
+      "primary": {
+        "value": "#FF9F0E",
+        "type": "color",
+        "original": {
+          "value": "#FF9F0E",
+          "type": "color"
+        },
+        "name": "colorAccentPrimary",
+        "attributes": {
+          "category": "color",
+          "mode": "light",
+          "theme": "offroad"
+        },
+        "path": [
+          "color",
+          "accent",
+          "primary"
+        ]
+      }
+    }
+  }
+}

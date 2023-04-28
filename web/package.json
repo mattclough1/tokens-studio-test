@@ -1,0 +1,11 @@
+{
+  "name": "@onxmaps/ys-tokens",
+  "version": "0.1.0",
+  "description": "Yellowstone design tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,49 @@
+@media (prefers-color-scheme: dark) {
+  :where(html[data-theme="hunt"]) {
+    color-scheme: dark;
+    
+    --ys-button-color-primary-surface-rest: #c92800ff;
+    --ys-button-color-primary-surface-hover: #ff3300ff;
+    --ys-button-color-primary-surface-active: #ff3300ff;
+    --ys-button-color-primary-surface-focus: #c92800ff;
+    --ys-button-color-primary-surface-disabled: #6d1c08ff;
+    --ys-button-color-primary-text-rest: #ffffffff;
+    --ys-button-color-primary-text-hover: #ffffffff;
+    --ys-button-color-primary-text-active: #ffffffff;
+    --ys-button-color-primary-text-focus: #ffffffff;
+    --ys-button-color-primary-text-disabled: #8a1f05ff;
+    --ys-button-color-primary-border-active: #c92800ff;
+    --ys-button-color-primary-border-focus: #ff3300ff;
+    --ys-color-accent-primary: #c92800ff;
+    --ys-color-surface-base: #110e0eff;
+    --ys-color-surface-primary: #333130ff;
+    --ys-color-surface-secondary: #464342ff;
+    --ys-color-surface-tertiary: #555251ff;
+    --ys-color-icon-twotone-primary: #a5a5a5ff;
+    --ys-color-icon-twotone-secondary: #110e0eff;
+  }
+}
+
+:where(html[color-scheme="dark"][data-theme="hunt"]) {
+  color-scheme: dark;
+  
+  --ys-button-color-primary-surface-rest: #c92800ff;
+  --ys-button-color-primary-surface-hover: #ff3300ff;
+  --ys-button-color-primary-surface-active: #ff3300ff;
+  --ys-button-color-primary-surface-focus: #c92800ff;
+  --ys-button-color-primary-surface-disabled: #6d1c08ff;
+  --ys-button-color-primary-text-rest: #ffffffff;
+  --ys-button-color-primary-text-hover: #ffffffff;
+  --ys-button-color-primary-text-active: #ffffffff;
+  --ys-button-color-primary-text-focus: #ffffffff;
+  --ys-button-color-primary-text-disabled: #8a1f05ff;
+  --ys-button-color-primary-border-active: #c92800ff;
+  --ys-button-color-primary-border-focus: #ff3300ff;
+  --ys-color-accent-primary: #c92800ff;
+  --ys-color-surface-base: #110e0eff;
+  --ys-color-surface-primary: #333130ff;
+  --ys-color-surface-secondary: #464342ff;
+  --ys-color-surface-tertiary: #555251ff;
+  --ys-color-icon-twotone-primary: #a5a5a5ff;
+  --ys-color-icon-twotone-secondary: #110e0eff;
+}

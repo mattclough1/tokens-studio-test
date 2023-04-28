@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+  :where(html<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %>) {
+    color-scheme: dark;
+    <% allTokens.forEach((token) => {
+    %>
+    --<%= token.name %>: <%= token.value %>;<%
+    }) %>
+  }
+}
+
+:where(html[color-scheme="dark"]<% if (options.theme) { %>[data-theme="<%= options.theme %>"]<%} %>) {
+  color-scheme: dark;
+  <% allTokens.forEach((token) => {
+  %>
+  --<%= token.name %>: <%= token.value %>;<%
+  }) %>
+}

@@ -1,0 +1,35 @@
+:where(html[data-theme="hunt"]) {
+  color-scheme: light;
+  
+  --ys-button-color-primary-surface-rest: #ff3300ff;
+  --ys-button-color-primary-surface-hover: #c92800ff;
+  --ys-button-color-primary-surface-active: #c92800ff;
+  --ys-button-color-primary-surface-focus: #ff3300ff;
+  --ys-button-color-primary-surface-disabled: #ffc2b2ff;
+  --ys-button-color-primary-text-rest: #ffffffff;
+  --ys-button-color-primary-text-hover: #ffffffff;
+  --ys-button-color-primary-text-active: #ffffffff;
+  --ys-button-color-primary-text-focus: #ffffffff;
+  --ys-button-color-primary-text-disabled: #ffe6e0ff;
+  --ys-button-color-primary-border-active: #ff3300ff;
+  --ys-button-color-primary-border-focus: #c92800ff;
+  --ys-color-accent-primary: #ff3300ff;
+}
+
+:where(html[color-scheme="light"][data-theme="hunt"]) {
+  color-scheme: light;
+  
+  --ys-button-color-primary-surface-rest: #ff3300ff;
+  --ys-button-color-primary-surface-hover: #c92800ff;
+  --ys-button-color-primary-surface-active: #c92800ff;
+  --ys-button-color-primary-surface-focus: #ff3300ff;
+  --ys-button-color-primary-surface-disabled: #ffc2b2ff;
+  --ys-button-color-primary-text-rest: #ffffffff;
+  --ys-button-color-primary-text-hover: #ffffffff;
+  --ys-button-color-primary-text-active: #ffffffff;
+  --ys-button-color-primary-text-focus: #ffffffff;
+  --ys-button-color-primary-text-disabled: #ffe6e0ff;
+  --ys-button-color-primary-border-active: #ff3300ff;
+  --ys-button-color-primary-border-focus: #c92800ff;
+  --ys-color-accent-primary: #ff3300ff;
+}

@@ -1,0 +1,41 @@
+:where(html) {
+  color-scheme: light;
+  
+  --ys-color-surface-base: #ffffffff;
+  --ys-color-surface-primary: #f5f5f5ff;
+  --ys-color-surface-secondary: #e2e2e2ff;
+  --ys-color-surface-tertiary: #bdbdbdff;
+  --ys-color-divider-base: #e2e2e2ff;
+  --ys-color-divider-primary: #bdbdbdff;
+  --ys-color-divider-secondary: #a5a5a5ff;
+  --ys-color-divider-tertiary: #8b8b8bff;
+  --ys-color-text-primary: #333333ff;
+  --ys-color-text-secondary: #464646ff;
+  --ys-color-text-tertiary: #555555ff;
+  --ys-color-text-dim: #666666ff;
+  --ys-color-icon-primary: #333333ff;
+  --ys-color-icon-secondary: #8b8b8bff;
+  --ys-color-icon-twotone-primary: #a5a5a5ff;
+  --ys-color-icon-twotone-secondary: #ffffffff;
+}
+
+:where(html[color-scheme="light"]) {
+  color-scheme: light;
+  
+  --ys-color-surface-base: #ffffffff;
+  --ys-color-surface-primary: #f5f5f5ff;
+  --ys-color-surface-secondary: #e2e2e2ff;
+  --ys-color-surface-tertiary: #bdbdbdff;
+  --ys-color-divider-base: #e2e2e2ff;
+  --ys-color-divider-primary: #bdbdbdff;
+  --ys-color-divider-secondary: #a5a5a5ff;
+  --ys-color-divider-tertiary: #8b8b8bff;
+  --ys-color-text-primary: #333333ff;
+  --ys-color-text-secondary: #464646ff;
+  --ys-color-text-tertiary: #555555ff;
+  --ys-color-text-dim: #666666ff;
+  --ys-color-icon-primary: #333333ff;
+  --ys-color-icon-secondary: #8b8b8bff;
+  --ys-color-icon-twotone-primary: #a5a5a5ff;
+  --ys-color-icon-twotone-secondary: #ffffffff;
+}
