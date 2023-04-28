@@ -1,6 +1,6 @@
 {
   "name": "@onxmaps/ys-tokens",
-  "version": "0.1.0",
+  "version": "1.7.0",
   "description": "Yellowstone design tokens",
   "main": "index.js",
   "scripts": {
