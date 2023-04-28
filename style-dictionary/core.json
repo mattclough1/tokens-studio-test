@@ -1935,6 +1935,22 @@
         "color",
         "jazz4"
       ]
+    },
+    "jazz5": {
+      "value": "#de4faa",
+      "type": "color",
+      "original": {
+        "value": "#de4faa",
+        "type": "color"
+      },
+      "name": "colorJazz5",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz5"
+      ]
     }
   }
 }
