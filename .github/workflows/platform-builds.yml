@@ -40,11 +40,11 @@ jobs:
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         env:
-          branch_hash: "${{ steps.vars.outputs.dist_hash }}"
+          branch_hash: "${{ hashFiles('web/dist/**') }}"
         with:
           commit-message: "build web design tokens for ${{ steps.vars.outputs.sha_short }}"
           title: "Build web design tokens for ${{ steps.vars.outputs.sha_short }}"
           base: main
           labels: automated-pr
-          branch: "build-web-tokens-${{ hashFiles('web/dist/**') }: -7}"
+          branch: "build-web-tokens-${branch_hash: -7}"
           delete-branch: true
