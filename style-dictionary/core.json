@@ -1967,6 +1967,22 @@
         "color",
         "jazz6"
       ]
+    },
+    "jazz7": {
+      "value": "#cbf044",
+      "type": "color",
+      "original": {
+        "value": "#cbf044",
+        "type": "color"
+      },
+      "name": "colorJazz7",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz7"
+      ]
     }
   }
 }
