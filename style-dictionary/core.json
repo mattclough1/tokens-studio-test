@@ -1951,6 +1951,22 @@
         "color",
         "jazz5"
       ]
+    },
+    "jazz6": {
+      "value": "#91f87d",
+      "type": "color",
+      "original": {
+        "value": "#91f87d",
+        "type": "color"
+      },
+      "name": "colorJazz6",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz6"
+      ]
     }
   }
 }
