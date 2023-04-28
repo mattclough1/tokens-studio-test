@@ -1919,6 +1919,22 @@
         "color",
         "jazz3"
       ]
+    },
+    "jazz4": {
+      "value": "#72a5ce",
+      "type": "color",
+      "original": {
+        "value": "#72a5ce",
+        "type": "color"
+      },
+      "name": "colorJazz4",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz4"
+      ]
     }
   }
 }
