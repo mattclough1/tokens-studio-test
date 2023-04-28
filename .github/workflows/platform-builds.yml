@@ -38,7 +38,7 @@ jobs:
           echo "dist_hash_short=$(echo "${{ hashFiles('web/dist/**') }}" | cut -c1-7)" >> $GITHUB_OUTPUT
 
       - name: Create release for node module
-        run: npx semantic-release --extends ./web/release.web.config.js
+        run: npx semantic-release
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
