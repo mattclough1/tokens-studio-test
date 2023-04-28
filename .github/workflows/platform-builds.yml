@@ -47,4 +47,4 @@ jobs:
           delete-branch: true
 
       - name: Create release for node module
-        run: npx semantic-release --extends './web/release.web.config.js'
+        run: npx semantic-release --extends ./web/release.web.config.js
