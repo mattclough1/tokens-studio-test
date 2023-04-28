@@ -6,7 +6,6 @@ module.exports = {
       "@semantic-release/npm",
       {
         pkgRoot: "web/",
-        npmPublish: false,
       },
     ],
     [
