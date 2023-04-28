@@ -1983,6 +1983,22 @@
         "color",
         "jazz7"
       ]
+    },
+    "jazz8": {
+      "value": "#d5a252",
+      "type": "color",
+      "original": {
+        "value": "#d5a252",
+        "type": "color"
+      },
+      "name": "colorJazz8",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz8"
+      ]
     }
   }
 }
