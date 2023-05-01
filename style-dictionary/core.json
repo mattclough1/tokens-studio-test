@@ -2031,6 +2031,22 @@
         "color",
         "jazz10"
       ]
+    },
+    "jazz11": {
+      "value": "#6be4ff",
+      "type": "color",
+      "original": {
+        "value": "#6be4ff",
+        "type": "color"
+      },
+      "name": "colorJazz11",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz11"
+      ]
     }
   }
 }
