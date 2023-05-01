@@ -2015,6 +2015,22 @@
         "color",
         "jazz9"
       ]
+    },
+    "jazz10": {
+      "value": "#ffd14a",
+      "type": "color",
+      "original": {
+        "value": "#ffd14a",
+        "type": "color"
+      },
+      "name": "colorJazz10",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz10"
+      ]
     }
   }
 }
