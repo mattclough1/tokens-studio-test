@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "exports": {
+    "./backcountry-light": "./dist/web/backcountry-light.css",
+    "./backcountry-dark": "./dist/web/backcountry-dark.css",
+    "./core": "./dist/web/core.css",
+    "./global-light": "./dist/web/global-light.css",
+    "./global-dark": "./dist/web/global-dark.css",
+    "./hunt-light": "./dist/web/hunt-light.css",
+    "./hunt-dark": "./dist/web/hunt-dark.css",
+    "./offroad-light": "./dist/web/offroad-light.css",
+    "./offroad-dark": "./dist/web/offroad-dark.css"
+  }
 }
