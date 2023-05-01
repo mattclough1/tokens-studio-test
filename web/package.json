@@ -1,6 +1,6 @@
 {
   "name": "@mattclough/tokens-studio-test-2",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "description": "Yellowstone design tokens",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   "author": "",
   "license": "ISC",
   "exports": {
-    "./dist/backcountry-light": "./dist/web/backcountry-light.css",
-    "./dist/backcountry-dark": "./dist/web/backcountry-dark.css",
-    "./dist/core": "./dist/web/core.css",
-    "./dist/global-light": "./dist/web/global-light.css",
-    "./dist/global-dark": "./dist/web/global-dark.css",
-    "./dist/hunt-light": "./dist/web/hunt-light.css",
-    "./dist/hunt-dark": "./dist/web/hunt-dark.css",
-    "./dist/offroad-light": "./dist/web/offroad-light.css",
-    "./dist/offroad-dark": "./dist/web/offroad-dark.css"
+    "./backcountry-light": "./dist/backcountry-light.css",
+    "./backcountry-dark": "./dist/backcountry-dark.css",
+    "./core": "./dist/core.css",
+    "./global-light": "./dist/global-light.css",
+    "./global-dark": "./disb/global-dark.css",
+    "./hunt-light": "./dist/hunt-light.css",
+    "./hunt-dark": "./dist/hunt-dark.css",
+    "./offroad-light": "./dist/offroad-light.css",
+    "./offroad-dark": "./dist/offroad-dark.css"
   }
 }
