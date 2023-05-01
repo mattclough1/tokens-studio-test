@@ -1999,6 +1999,22 @@
         "color",
         "jazz8"
       ]
+    },
+    "jazz9": {
+      "value": "#ebe769",
+      "type": "color",
+      "original": {
+        "value": "#ebe769",
+        "type": "color"
+      },
+      "name": "colorJazz9",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz9"
+      ]
     }
   }
 }
