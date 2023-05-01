@@ -1,6 +1,6 @@
 {
   "name": "@mattclough/tokens-studio-test-2",
-  "version": "1.11.2",
+  "version": "1.11.3",
   "description": "Yellowstone design tokens",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "./backcountry-dark": "./dist/backcountry-dark.css",
     "./core": "./dist/core.css",
     "./global-light": "./dist/global-light.css",
-    "./global-dark": "./disb/global-dark.css",
+    "./global-dark": "./dist/global-dark.css",
     "./hunt-light": "./dist/hunt-light.css",
     "./hunt-dark": "./dist/hunt-dark.css",
     "./offroad-light": "./dist/offroad-light.css",
