@@ -19,6 +19,8 @@ jobs:
       - name: Check if version has been updated
         id: check-version-update
         uses: EndBug/version-check@v2
+        with:
+          file-name: "./web/package.json"
 
       - name: Set up Node.js for Cloudsmith
         if: steps.check.outputs.changed == 'true'
