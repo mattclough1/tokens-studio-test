@@ -28,17 +28,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build web design tokens
+      - name: Build design tokens for web
         run: npm run build:web
 
       - name: Set outputs
         id: vars
-        run: |
-          echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
-          echo "dist_hash_short=$(echo "${{ hashFiles('web/dist/**') }}" | cut -c1-7)" >> $GITHUB_OUTPUT
+        run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
 
       - name: Create release for node module
-        run: npx semantic-release
+        run: npx semantic-release --extends ./release.web.config.js
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
@@ -49,3 +47,20 @@ jobs:
           labels: automated-pr
           branch: "build-web-tokens-${{ steps.vars.outputs.sha_short }}"
           delete-branch: true
+
+  github_release:
+    needs: web
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        id: setup-node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "npm"
+
+      - name: Create GitHub release
+        run: npx semantic-release --extends ./release.base.config.js
