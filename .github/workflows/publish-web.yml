@@ -22,4 +22,4 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Publish
-        run: npm publish --access public
+        run: npm publish @mattclough/tokens-studio-test
