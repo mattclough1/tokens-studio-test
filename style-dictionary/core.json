@@ -2063,6 +2063,22 @@
         "color",
         "jazz12"
       ]
+    },
+    "jazz13": {
+      "value": "#353232",
+      "type": "color",
+      "original": {
+        "value": "#353232",
+        "type": "color"
+      },
+      "name": "colorJazz13",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz13"
+      ]
     }
   }
 }
