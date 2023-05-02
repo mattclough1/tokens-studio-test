@@ -35,7 +35,7 @@ jobs:
         run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
 
       - name: Bump web package version
-        run: npx semantic-release --extends ./web/release.package-bump.config.js --no-ci
+        run: npx semantic-release --extends ./web/release.package-bump.config.js --no-push
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
