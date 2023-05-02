@@ -13,6 +13,7 @@ import {
 
 const BUILD_PATH = "web/dist/";
 
+console.log("test");
 // Formatter for light mode CSS
 StyleDictionary.registerFormat({
   name: "css/variables/light",
