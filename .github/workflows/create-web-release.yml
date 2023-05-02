@@ -2,7 +2,6 @@ name: Create release for web package
 env:
   GITHUB_TOKEN: ${{ github.token }}
 
-on:
   push:
     branches:
       - main
