@@ -1,0 +1,31 @@
+name: Release style dictionary tokens
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "style-dictionary/*.json"
+  workflow_dispatch:
+
+jobs:
+  github_release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        id: setup-node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Create GitHub release
+        run: npx semantic-release --extends ./release.root.config.js
