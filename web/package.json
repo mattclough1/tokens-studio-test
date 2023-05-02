@@ -1,6 +1,6 @@
 {
   "name": "@mattclough/tokens-studio-test-2",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Yellowstone design tokens",
   "main": "index.js",
   "scripts": {
