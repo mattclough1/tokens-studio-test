@@ -2079,6 +2079,22 @@
         "color",
         "jazz13"
       ]
+    },
+    "jazz14": {
+      "value": "#dc3232",
+      "type": "color",
+      "original": {
+        "value": "#dc3232",
+        "type": "color"
+      },
+      "name": "colorJazz14",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz14"
+      ]
     }
   }
 }
