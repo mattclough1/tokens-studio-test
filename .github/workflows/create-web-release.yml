@@ -1,4 +1,4 @@
-name: Build platform tokens
+name: Create release for web pacakge
 env:
   GITHUB_TOKEN: ${{ github.token }}
 
@@ -7,11 +7,10 @@ on:
     branches:
       - main
     paths:
-      - "style-dictionary/*.json"
-  workflow_dispatch:
+      - "web/"
 
 jobs:
-  web:
+  create_release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -27,16 +26,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build design tokens for web
-        run: npm run build:web
-
-      - name: Set outputs
-        id: vars
-        run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
-
       - name: Get next semantic version
         id: get-next-version
-        run: npx semantic-release --extends ./web/release.package-bump.config.js --dry-run
+        run: npx semantic-release --extends ./web/release.package-bump.config.js
 
       - name: Bump web package version
         run: npm version ${{ steps.get-next-version.outputs.new-release-version }} -w web
@@ -44,9 +36,9 @@ jobs:
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "chore(web): build web design tokens for ${{ steps.vars.outputs.sha_short }}"
-          title: "Build web design tokens for ${{ steps.vars.outputs.sha_short }}"
+          commit-message: "chore(web): release"
+          title: "Release web"
           base: main
           labels: automated-pr
-          branch: "build-web-tokens-${{ steps.vars.outputs.sha_short }}"
+          branch: "release-web-${{ stesp.get-next-version.outputs.new-release-version }}"
           delete-branch: true

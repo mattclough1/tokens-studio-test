@@ -1,7 +1,5 @@
 const baseConfig = require("./release.base.config");
 
-console.log(baseConfig);
-
 module.exports = {
   ...baseConfig,
   plugins: [
