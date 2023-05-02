@@ -13,5 +13,6 @@ module.exports = {
         npmPublish: false,
       },
     ],
+    "semantic-release-export-data",
   ],
 };
