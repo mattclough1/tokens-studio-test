@@ -2113,6 +2113,22 @@
         "color",
         "jazz15"
       ]
+    },
+    "jazz16": {
+      "value": "#89cdd1",
+      "type": "color",
+      "original": {
+        "value": "#89cdd1",
+        "type": "color"
+      },
+      "name": "colorJazz16",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz16"
+      ]
     }
   }
 }
