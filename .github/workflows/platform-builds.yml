@@ -34,8 +34,8 @@ jobs:
         id: vars
         run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
 
-      - name: Create release for node module
-        run: npx semantic-release --extends ./release.web.config.js
+      - name: Bump web package version
+        run: npx semantic-release --extends ./web/release.package-bump.config.js
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
@@ -65,4 +65,4 @@ jobs:
         run: npm ci
 
       - name: Create GitHub release
-        run: npx semantic-release --extends ./release.base.config.js
+        run: npx semantic-release

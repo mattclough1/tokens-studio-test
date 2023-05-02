@@ -10,13 +10,5 @@ module.exports = {
         releaseRules: [{ scope: "web", type: "*!", release: "major" }],
       },
     ],
-    [
-      "@semantic-release/npm",
-      {
-        pkgRoot: "./web/",
-        npmPublish: false,
-      },
-    ],
-    "@semantic-release/git",
   ],
 };
