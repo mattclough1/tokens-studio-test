@@ -8,7 +8,7 @@ on:
       - main
     paths:
       - "web/**"
-      - "!web/package.json"
+      - "!web/package*.json"
   workflow_dispatch:
 
 jobs:
