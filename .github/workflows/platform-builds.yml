@@ -35,7 +35,11 @@ jobs:
         run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
 
       - name: Bump web package version
-        run: npx semantic-release --extends ./web/release.package-bump.config.js --no-push
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: "@mattclough/tokens-studio-test"
+          skip-github-release: true
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
