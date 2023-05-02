@@ -1,4 +1,4 @@
-name: Create release for web pacakge
+name: Create release for web package
 env:
   GITHUB_TOKEN: ${{ github.token }}
 
@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      - "web/"
+      - "web/**"
 
 jobs:
   create_release:
