@@ -2129,6 +2129,22 @@
         "color",
         "jazz16"
       ]
+    },
+    "jazz17": {
+      "value": "#d95216",
+      "type": "color",
+      "original": {
+        "value": "#d95216",
+        "type": "color"
+      },
+      "name": "colorJazz17",
+      "attributes": {
+        "category": "color"
+      },
+      "path": [
+        "color",
+        "jazz17"
+      ]
     }
   }
 }
