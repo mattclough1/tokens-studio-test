@@ -5,6 +5,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
+        preset: "angular",
         releaseRules: [
           { breaking: true, release: "major" },
           { type: "feat", release: false },
