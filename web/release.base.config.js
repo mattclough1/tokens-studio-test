@@ -5,9 +5,14 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        releaseRules: [{ scope: "web", type: "fix", release: "patch" }],
-        releaseRules: [{ scope: "web", type: "feat", release: "minor" }],
-        releaseRules: [{ scope: "web", type: "*!", release: "major" }],
+        releaseRules: [
+          { breaking: true, release: "major" },
+          { type: "feat", release: false },
+          { type: "fix", release: false },
+          { type: "perf", release: false },
+          { scope: "web", type: "fix", release: "patch" },
+          { scope: "web", type: "feat", release: "minor" },
+        ],
       },
     ],
   ],
