@@ -8,6 +8,7 @@ on:
       - main
     paths:
       - "web/**"
+  workflow_dispatch:
 
 jobs:
   create_release:
@@ -40,5 +41,5 @@ jobs:
           title: "Release web"
           base: main
           labels: automated-pr
-          branch: "release-web-${{ stesp.get-next-version.outputs.new-release-version }}"
+          branch: "release-web-${{ steps.get-next-version.outputs.new-release-version }}"
           delete-branch: true
