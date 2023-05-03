@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mattclough1/tokens-studio-test/compare/web-1.0.1...web-1.1.0) (2023-05-03)
+
+
+### Bug Fixes
+
+* modify jazz 4 ([49fa80c](https://github.com/mattclough1/tokens-studio-test/commit/49fa80cfe8231585756b248372de40a9b696af21))
+
 ## [1.0.1](https://github.com/mattclough1/tokens-studio-test/compare/web-1.0.0...web-1.0.1) (2023-05-03)
 
 
