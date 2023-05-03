@@ -29,11 +29,18 @@ jobs:
       - name: Transform to Style Dictionary
         run: npm run style-dictionary
 
+      - name: Extract PR number
+        id: pr_number
+        run: |
+          merge_commits () { git log --merges --reverse --oneline --ancestry-path $1..origin | grep "Merge pull request";  }; funct'
+          pr_number () { merge_commits $1 | head --lines 1 | sed --silent "s/^.*Merge pull request #\\s*\\([0-9]*\\).*$/\\1/p"; }; funct'
+          echo "pr_number=$(git pr-number ${{ github.event.head_commit }})" >> "$GITHUB_OUTPUT"
+
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: Transform Tokens Studio tokens to Style Dictionary
-          title: Transform Tokens Studio tokens to Style Dictionary
+          commit-message: "chore: transform tokens${{ steps.pr_number.outputs.pr_number && ' from ${{ steps.pr_number.outputs.pr_number }}' }} to Style Dictionary"
+          title: "Transform tokens${{ steps.pr_number.outputs.pr_number && ' from ${{ steps.pr_number.outputs.pr_number }}' }} to Style Dictionary"
           base: main
           labels: automated-pr
           branch: tokens-studio-to-style-dictionary

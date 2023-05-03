@@ -6,24 +6,19 @@ module.exports = {
       "@semantic-release/commit-analyzer",
       {
         preset: "angular",
-        releaseRules: [
-          { scope: "!(web)", type: "*", release: false },
-          { scope: "web", type: "build", release: "patch" },
-        ],
+        releaseRules: [{ scope: "!(web)", type: "*", release: false }],
       },
     ],
     [
       "@semantic-release/release-notes-generator",
       {
-        presetConfig: {
-          types: [
-            {
-              scope: "web",
-              type: "build",
-              section: "Build System",
-              hidden: false,
-            },
-          ],
+        writerOpts: {
+          transform: (commit) => {
+            if (commit.type === "build") {
+              commit.type = "Builds";
+              return commit;
+            }
+          },
         },
       },
     ],
