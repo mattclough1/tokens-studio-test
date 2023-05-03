@@ -22,17 +22,18 @@ module.exports = {
         pkgRoot: "./web/",
       },
     ],
-    [
-      "@semantic-release/exec",
-      {
-        prepareCmd: "npm version ${nextRelease.version} -w web",
-      },
-    ],
+    // [
+    //   "@semantic-release/exec",
+    //   {
+    //     prepareCmd: "npm version ${nextRelease.version} -w web",
+    //   },
+    // ],
     [
       "@semantic-release/git",
       {
         message:
           "chore(web): release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>",
+        assets: ["./web/package*.json", "package*.json", "./web/CHANGELOG.md"],
       },
     ],
   ],
