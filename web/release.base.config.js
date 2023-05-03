@@ -7,8 +7,8 @@ module.exports = {
       {
         preset: "angular",
         releaseRules: [
-          { scope: "!(web)", type: "*", release: false }
-          { scope: "web", type: "build", release: 'minor' }
+          { scope: "!(web)", type: "*", release: false },
+          { scope: "web", type: "build", release: "minor" },
         ],
       },
     ],
