@@ -31,7 +31,7 @@ jobs:
 
       - name: Extract PR number
         id: pr_number
-        run: echo "pr_number=$(gh pr view --json number -q .number || echo "")" >> "$GITHUB_OUTPUT"
+        run: echo "pr_number=$(gh pr view --json $GITHUB_SHA -q .number || echo "")" >> "$GITHUB_OUTPUT"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
