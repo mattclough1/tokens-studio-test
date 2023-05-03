@@ -13,13 +13,19 @@ module.exports = {
     [
       "@semantic-release/changelog",
       {
-        changelogFile: "web/CHANGELOG.md",
+        changelogFile: "./web/CHANGELOG.md",
       },
     ],
     [
       "@semantic-release/npm",
       {
         pkgRoot: "./web/",
+      },
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        prepareCmd: "npm version ${nextRelease.version} -w web",
       },
     ],
     [
