@@ -25,6 +25,8 @@ StyleDictionary.registerFormat({
   ),
 });
 
+console.log("test");
+
 // Formatter for dark mode CSS
 StyleDictionary.registerFormat({
   name: "css/variables/dark",
