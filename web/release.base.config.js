@@ -9,7 +9,21 @@ module.exports = {
         releaseRules: [{ scope: "!(web)", type: "*", release: false }],
       },
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        presetConfig: {
+          types: [
+            {
+              scope: "web",
+              type: "build",
+              section: "Builds",
+              hidden: false,
+            },
+          ],
+        },
+      },
+    ],
     [
       "@semantic-release/changelog",
       {
