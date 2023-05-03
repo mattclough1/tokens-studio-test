@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/mattclough1/tokens-studio-test/compare/web-1.1.0...web-1.1.1) (2023-05-03)
+
+
+### Bug Fixes
+
+* update jazz 7 ([85418d4](https://github.com/mattclough1/tokens-studio-test/commit/85418d4407ced783510fddcdbb7235827d9a8530))
+
 # [1.1.0](https://github.com/mattclough1/tokens-studio-test/compare/web-1.0.1...web-1.1.0) (2023-05-03)
 
 
