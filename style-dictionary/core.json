@@ -1905,10 +1905,10 @@
       ]
     },
     "jazz3": {
-      "value": "#834848",
+      "value": "#e6e276",
       "type": "color",
       "original": {
-        "value": "#834848",
+        "value": "#e6e276",
         "type": "color"
       },
       "name": "colorJazz3",
@@ -1937,10 +1937,10 @@
       ]
     },
     "jazz5": {
-      "value": "#ff9ada",
+      "value": "#b13f87",
       "type": "color",
       "original": {
-        "value": "#ff9ada",
+        "value": "#b13f87",
         "type": "color"
       },
       "name": "colorJazz5",
@@ -2065,10 +2065,10 @@
       ]
     },
     "jazz13": {
-      "value": "#353232",
+      "value": "#bd6e6e",
       "type": "color",
       "original": {
-        "value": "#353232",
+        "value": "#bd6e6e",
         "type": "color"
       },
       "name": "colorJazz13",
@@ -2081,10 +2081,10 @@
       ]
     },
     "jazz14": {
-      "value": "#dc3232",
+      "value": "#b33939",
       "type": "color",
       "original": {
-        "value": "#dc3232",
+        "value": "#b33939",
         "type": "color"
       },
       "name": "colorJazz14",
@@ -2115,10 +2115,10 @@
       ]
     },
     "jazz16": {
-      "value": "#89cdd1",
+      "value": "#88d8dc",
       "type": "color",
       "original": {
-        "value": "#89cdd1",
+        "value": "#88d8dc",
         "type": "color"
       },
       "name": "colorJazz16",
