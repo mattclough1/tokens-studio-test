@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -31,7 +33,10 @@ jobs:
 
       - name: Extract PR number
         id: pr_number
-        run: echo "pr_number=$(gh pr view $GITHUB_SHA --json number -q .number || echo "")" >> "$GITHUB_OUTPUT"
+        run: |
+          get_merge_commits () { git log --merges --reverse --oneline --ancestry-path $1..origin | grep "Merge pull request";  }
+          get_pr_number () { get_merge_commits $1 | head --lines 1 | sed -n "s/^.*Merge pull request #\\s*\\([0-9]*\\).*$/\\1/p"; }
+          echo "pr_number=$(get_pr_number $GITHUB_SHA)" >> "$GITHUB_OUTPUT"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
