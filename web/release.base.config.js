@@ -22,12 +22,6 @@ module.exports = {
         pkgRoot: "./web/",
       },
     ],
-    // [
-    //   "@semantic-release/exec",
-    //   {
-    //     prepareCmd: "npm version ${nextRelease.version} -w web",
-    //   },
-    // ],
     [
       "@semantic-release/git",
       {

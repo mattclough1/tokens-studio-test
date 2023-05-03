@@ -34,13 +34,6 @@ jobs:
         id: vars
         run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
 
-      - name: Get next semantic version
-        id: get-next-version
-        run: npx semantic-release --extends ./web/release.package-bump.config.js --dry-run
-
-      - name: Bump web package version
-        run: npm version ${{ steps.get-next-version.outputs.new-release-version }} -w web
-
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         with:

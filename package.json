@@ -19,8 +19,5 @@
     "token-transformer": "^0.0.32",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
-  },
-  "workspaces": [
-    "web"
-  ]
+  }
 }
