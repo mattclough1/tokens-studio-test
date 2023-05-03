@@ -1703,10 +1703,10 @@
         ]
       },
       "30": {
-        "value": "#FCACAC",
+        "value": "#0d0d23",
         "type": "color",
         "original": {
-          "value": "#FCACAC",
+          "value": "#0d0d23",
           "type": "color"
         },
         "name": "colorErrorRed30",
