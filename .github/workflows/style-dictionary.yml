@@ -40,6 +40,7 @@ jobs:
         with:
           commit-message: "chore: transform tokens from ${{ steps.vars.outputs.sha_short }} to Style Dictionary"
           title: "Transform tokens from ${{ steps.vars.outputs.sha_short }} to Style Dictionary"
+          body: "This PR transforms design tokens exported from Tokens Studio in ${{ steps.vars.outputs.sha_short }} to Style Dictionary JSON."
           base: main
           labels: automated-pr
           branch: tokens-studio-to-style-dictionary
