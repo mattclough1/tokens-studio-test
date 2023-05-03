@@ -32,9 +32,9 @@ jobs:
       - name: Extract PR number
         id: pr_number
         run: |
-          merge_commits () { git log --merges --reverse --oneline --ancestry-path $1..origin | grep "Merge pull request";  }
-          pr_number () { merge_commits $1 | head --lines 1 | sed --silent "s/^.*Merge pull request #\\s*\\([0-9]*\\).*$/\\1/p"; }
-          echo "pr_number=$(git pr-number ${{ github.event.head_commit }})" >> "$GITHUB_OUTPUT"
+          get_merge_commits () { git log --merges --reverse --oneline --ancestry-path $1..origin | grep "Merge pull request";  }
+          get_pr_number () { get_merge_commits $1 | head --lines 1 | sed -n "s/^.*Merge pull request #\\s*\\([0-9]*\\).*$/\\1/p"; }
+          echo "pr_number=$(get_pr_number ${{ github.event.head_commit }})" >> "$GITHUB_OUTPUT"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
