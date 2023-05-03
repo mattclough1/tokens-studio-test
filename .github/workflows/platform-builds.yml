@@ -37,8 +37,8 @@ jobs:
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "chore(web): build web design tokens for ${{ steps.vars.outputs.sha_short }}"
-          title: "Build web design tokens for ${{ steps.vars.outputs.sha_short }}"
+          commit-message: "build(web): build design tokens for ${{ steps.vars.outputs.sha_short }}"
+          title: "Build design tokens for ${{ steps.vars.outputs.sha_short }}"
           base: main
           labels: automated-pr
           branch: "build-web-tokens-${{ steps.vars.outputs.sha_short }}"
