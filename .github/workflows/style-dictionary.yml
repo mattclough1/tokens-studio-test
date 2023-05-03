@@ -34,8 +34,8 @@ jobs:
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "chore: transform tokens from $GITHUB_SHA to Style Dictionary"
-          title: "Transform tokens from $GITHUB_SHA to Style Dictionary"
+          commit-message: "chore: transform tokens from ${{ GITHUB_SHA }} to Style Dictionary"
+          title: "Transform tokens from ${{ GITHUB_SHA }} to Style Dictionary"
           base: main
           labels: automated-pr
           branch: tokens-studio-to-style-dictionary
