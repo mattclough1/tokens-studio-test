@@ -31,11 +31,15 @@ jobs:
       - name: Transform to Style Dictionary
         run: npm run style-dictionary
 
+      - name: Set outputs
+        id: vars
+        run: echo "sha_short=$(git rev-parse --short ${{ github.sha }})" >> $GITHUB_OUTPUT
+
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "chore: transform tokens from ${{ github.sha }} to Style Dictionary"
-          title: "Transform tokens from ${{ github.sha }} to Style Dictionary"
+          commit-message: "chore: transform tokens from ${{ steps.vars.outputs.sha_short }} to Style Dictionary"
+          title: "Transform tokens from ${{ steps.vars.outputs.sha_short }} to Style Dictionary"
           base: main
           labels: automated-pr
           branch: tokens-studio-to-style-dictionary
