@@ -31,11 +31,7 @@ jobs:
 
       - name: Extract PR number
         id: pr_number
-        run: |
-          get_merge_commits () { git log --merges --reverse --oneline --ancestry-path $1..origin | grep "Merge pull request";  }
-          get_pr_number () { get_merge_commits $1 | head --lines 1 | sed -n "s/^.*Merge pull request #\\s*\\([0-9]*\\).*$/\\1/p"; }
-          git fetch origin
-          echo "pr_number=$(get_pr_number $GITHUB_SHA)" >> "$GITHUB_OUTPUT"
+        run: echo "pr_number=$(gh pr view --json number -q .number || echo "")" >> "$GITHUB_OUTPUT"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v5
